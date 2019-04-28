@@ -1,0 +1,69 @@
+"a" = (/turf,/area)
+"b" = (/turf/indoor/market_design/wall/wall_02,/area/Town_Route/Littleroot_Indoor)
+"c" = (/turf/indoor/room_stuff/object/window,/turf/indoor/market_design/wall/wall_02,/area/Town_Route/Littleroot_Indoor)
+"d" = (/turf/indoor/room_stuff/floor/floor_01,/turf/portal/enter_portal{tag = "PlayerHouseDownstairs"; target_tag = "PlayerBedroomStairs"},/turf/indoor/room_stuff/stairs/stairs_right,/area/Town_Route/Littleroot_Indoor)
+"e" = (/turf/indoor/room_stuff/floor/floor_01,/area/Town_Route/Littleroot_Indoor)
+"f" = (/turf/indoor/room_stuff/object/television,/turf/indoor/room_stuff/floor/floor_01,/area/Town_Route/Littleroot_Indoor)
+"g" = (/turf/indoor/room_stuff/object/plant,/turf/indoor/room_stuff/floor/floor_01,/area/Town_Route/Littleroot_Indoor)
+"h" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/center_design/center_object/object_03,/turf/indoor/room_stuff/object/blue_stool,/area/Town_Route/Littleroot_Indoor)
+"i" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/center_design/center_object/object_04,/turf/indoor/room_stuff/object/blue_stool,/area/Town_Route/Littleroot_Indoor)
+"j" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/room_stuff/object/blue_stool,/area/Town_Route/Littleroot_Indoor)
+"k" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/center_design/center_object/object_07,/area/Town_Route/Littleroot_Indoor)
+"l" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/center_design/center_object/object_08,/area/Town_Route/Littleroot_Indoor)
+"m" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/center_design/center_object/object_05,/area/Town_Route/Littleroot_Indoor)
+"n" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/center_design/center_object/object_06,/area/Town_Route/Littleroot_Indoor)
+"o" = (/turf/indoor/room_stuff/floor/floor_01,/mob/NPC/Mom{dir = 1},/turf/indoor/room_stuff/object/blue_stool,/area/Town_Route/Littleroot_Indoor)
+"p" = (/turf/indoor/room_stuff/floor/floor_01{tag = "HouseRespawn"},/area/Town_Route/Littleroot_Indoor)
+"q" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/center_design/door/door_01,/area/Town_Route/Littleroot_Indoor)
+"r" = (/turf/portal/enter_portal{tag = "PlayerHouseEnter"; target_tag = "PlayerHouseTile"},/turf/indoor/center_design/door/door_02,/area/Town_Route/Littleroot_Indoor)
+"s" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/center_design/door/door_03,/area/Town_Route/Littleroot_Indoor)
+"t" = (/turf/indoor/room_stuff/floor/floor_01,/turf/portal/enter_portal{tag = "PlayerBedroomStairs"; target_tag = "PlayerHouseDownstairs"},/turf/indoor/room_stuff/stairs/stairs_left,/area/Town_Route/Littleroot_Indoor)
+"u" = (/turf/indoor/room_stuff/game_console/gamecube,/turf/indoor/room_stuff/floor/floor_01,/area/Town_Route/Littleroot_Indoor)
+"v" = (/turf/indoor/room_stuff/object/comp_desk,/turf/indoor/room_stuff/floor/floor_01,/area/Town_Route/Littleroot_Indoor)
+"w" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/room_stuff/object/stool,/area/Town_Route/Littleroot_Indoor)
+"x" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/room_stuff/bed/bed_top,/area/Town_Route/Littleroot_Indoor)
+"y" = (/turf/indoor/room_stuff/floor/floor_01{tag = "BedroomSpawn"},/area/Town_Route/Littleroot_Indoor)
+"z" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/room_stuff/bed/bed_bot,/area/Town_Route/Littleroot_Indoor)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaabcbcbcbcbaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaadeeefeeeeaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaeeeeeeeeeaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaageeehieegaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaeeejkljeeaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaageejmnjegaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaeeeeojpeeaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaageeeeeeegaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaeeeqrseeeaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaabcbcbcbcbaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaateeefueveaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaeeeeeeeweaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaageeeeeeegaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaeeeeeeeeeaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaageeeeexegaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaeeeeeyzeeaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaageeeeeeegaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaeegegegeeaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

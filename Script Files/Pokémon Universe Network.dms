@@ -1,0 +1,13 @@
+<style>
+	IMG.icon{width:32;height:32;}
+</style>
+
+<link rel="stylesheet" href="Pokémon Universe Network.css"></link>
+
+<body>
+	<div id=gamepad_window byondclass=gamepad></div>
+	<div id=microphone_window byondclass=microphone></div>
+	<div id=default byondclass=child>
+		<div id=map1 byondclass=map></div>
+	</div>
+</body>

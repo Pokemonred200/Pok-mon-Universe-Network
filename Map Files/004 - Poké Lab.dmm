@@ -1,0 +1,43 @@
+"a" = (/turf,/area)
+"b" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/room_stuff/object/bookshelf,/area/Town_Route/Lab)
+"c" = (/turf/indoor/room_stuff/floor/floor_01,/area/Town_Route/Lab)
+"d" = (/mob/NPC/ivMan,/turf/indoor/room_stuff/floor/floor_01,/area/Town_Route/Lab)
+"e" = (/turf/indoor/room_stuff/floor/floor_01,/starterBall{starter = "Treecko"},/turf/table/tableLeft,/area/Town_Route/Lab)
+"f" = (/turf/indoor/room_stuff/floor/floor_01,/starterBall{starter = "Torchic"},/turf/table/tableMiddle,/area/Town_Route/Lab)
+"g" = (/turf/indoor/room_stuff/floor/floor_01,/starterBall{starter = "Mudkip"},/turf/table/tableRight,/area/Town_Route/Lab)
+"h" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/center_design/door/door_01{density = 0},/area/Town_Route/Lab)
+"i" = (/turf/indoor/center_design/door/door_02,/turf/portal/exit_portal{tag = "BirchPokeLab"},/area/Town_Route/Lab)
+"j" = (/turf/indoor/room_stuff/floor/floor_01,/turf/indoor/center_design/door/door_03{density = 0},/area/Town_Route/Lab)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaabbbbbbbbbbbaaaaaaaaaaaaa
+aaaaaacccccccccccaaaaaaaaaaaaa
+aaaaaacccccdcccccaaaaaaaaaaaaa
+aaaaaacccccccefgcaaaaaaaaaaaaa
+aaaaaacccccccccccaaaaaaaaaaaaa
+aaaaaabbbbcccbbbbaaaaaaaaaaaaa
+aaaaaacccccccccccaaaaaaaaaaaaa
+aaaaaacccccccccccaaaaaaaaaaaaa
+aaaaaabbbbcccbbbbaaaaaaaaaaaaa
+aaaaaacccccccccccaaaaaaaaaaaaa
+aaaaaacccchijccccaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

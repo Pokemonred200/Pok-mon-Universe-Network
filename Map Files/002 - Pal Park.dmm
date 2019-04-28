@@ -1,0 +1,281 @@
+"aa" = (/turf,/area)
+"ab" = (/turf/indoor/center_design/floor/floor_01,/area)
+"ac" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/counter/counter_01,/area)
+"ad" = (/turf/indoor/center_design/counter/counter_02,/area)
+"ae" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/counter/counter_05,/area)
+"af" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/counter/counter_08,/area)
+"ag" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/counter/counter_06,/area)
+"ah" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/counter/counter_04,/area)
+"ai" = (/mob/NPC/ParkManager,/turf/indoor/center_design/floor/floor_01,/area)
+"aj" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_09,/area)
+"ak" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_10,/area)
+"al" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_11,/area)
+"am" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_12,/area)
+"an" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_05,/area)
+"ao" = (/turf/indoor/center_design/floor/pokefloor_06,/area)
+"ap" = (/turf/indoor/center_design/floor/pokefloor_07,/area)
+"aq" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_08,/area)
+"ar" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_01,/area)
+"as" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_02,/area)
+"at" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_03,/area)
+"au" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_04,/area)
+"av" = (/turf/outdoor/terrain/terrain,/turf/outdoor/tree/special_version/summer_tree,/area)
+"aw" = (/turf/outdoor/terrain/terrain,/turf/outdoor/tree/special_version/summer_tree,/area/Town_Route/Pal_Park_Pond)
+"ax" = (/turf/outdoor/mountain_stuff/mount/mount_05,/area/Town_Route/Pal_Park_Pond)
+"ay" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/mountain_stuff/mountT/mount_06,/area/Town_Route/Pal_Park_Pond)
+"az" = (/turf/outdoor/mountain_stuff/mountT/mount_07,/area/Town_Route/Pal_Park_Pond)
+"aA" = (/turf/outdoor/mountain_stuff/mountT/mount_04,/area/Town_Route/Pal_Park_Pond)
+"aB" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/mountain_stuff/mountT/mount_08,/area/Town_Route/Pal_Park_Pond)
+"aC" = (/turf/outdoor/mountain_stuff/mountT/mount_05,/area/Town_Route/Pal_Park_Pond)
+"aD" = (/turf/outdoor/terrain/terrain,/turf/outdoor/tree/special_version/summer_tree,/area/Town_Route/Pal_Park_Forest)
+"aE" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/mountain_stuff/mountT/mount_01,/area/Town_Route/Pal_Park_Pond)
+"aF" = (/turf/outdoor/mountain_stuff/mountT/mount_02,/area/Town_Route/Pal_Park_Pond)
+"aG" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/mountain_stuff/mountT/mount_03,/area/Town_Route/Pal_Park_Pond)
+"aH" = (/turf/outdoor/mountain_stuff/mountT2/mount_07,/area/Town_Route/Pal_Park_Forest)
+"aI" = (/turf/outdoor/terrain/terrain,/turf/outdoor/mountain_stuff/mountT2/mount_08,/area/Town_Route/Pal_Park_Pond)
+"aJ" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/NW,/area/Town_Route/Pal_Park_Forest)
+"aK" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/N,/area/Town_Route/Pal_Park_Forest)
+"aL" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/NE,/area/Town_Route/Pal_Park_Forest)
+"aM" = (/turf/outdoor/terrain/terrain,/area/Town_Route/Pal_Park_Forest)
+"aN" = (/turf/outdoor/mountain_stair/vstair/stair1/left,/area/Town_Route/Pal_Park_Pond)
+"aO" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/water/NW,/area/Town_Route/Pal_Park_Pond)
+"aP" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/water/N,/area/Town_Route/Pal_Park_Pond)
+"aQ" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/water/NE,/area/Town_Route/Pal_Park_Pond)
+"aR" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/W,/area/Town_Route/Pal_Park_Forest)
+"aS" = (/turf/outdoor/spawn_grass/tall_grass/Center,/area/Town_Route/Pal_Park_Forest)
+"aT" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/E,/area/Town_Route/Pal_Park_Forest)
+"aU" = (/turf/outdoor/mountain_stair/vstair/stair1/middle,/area/Town_Route/Pal_Park_Pond)
+"aV" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/water/W,/area/Town_Route/Pal_Park_Pond)
+"aW" = (/turf/outdoor/water/Center,/area/Town_Route/Pal_Park_Pond)
+"aX" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/water/E,/area/Town_Route/Pal_Park_Pond)
+"aY" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/S,/turf/outdoor/spawn_grass/tall_grass/E,/area/Town_Route/Pal_Park_Forest)
+"aZ" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/S,/area/Town_Route/Pal_Park_Forest)
+"ba" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/SE,/area/Town_Route/Pal_Park_Forest)
+"bb" = (/turf/outdoor/mountain_stair/vstair/stair1/right,/area/Town_Route/Pal_Park_Pond)
+"bc" = (/turf/outdoor/terrain/terrain,/turf/outdoor/mountain_stuff/mountT2/mount_06,/area/Town_Route/Pal_Park_Forest)
+"bd" = (/turf/outdoor/terrain/terrain,/turf/outdoor/mountain_stuff/mountT2/mount_08,/area/Town_Route/Pal_Park_Forest)
+"be" = (/turf/outdoor/mountain_stuff/mountT2/mount_04,/area/Town_Route/Pal_Park_Forest)
+"bf" = (/turf/outdoor/terrain/terrain,/turf/outdoor/mountain_stuff/mountT/mount_06,/area/Town_Route/Pal_Park_Forest)
+"bg" = (/turf/outdoor/mountain_stuff/mountT/mount_07,/area/Town_Route/Pal_Park_Forest)
+"bh" = (/turf/outdoor/mountain_stuff/mountT/mount_07,/area)
+"bi" = (/turf/outdoor/ledge/ledge_south/ledge_left,/turf/outdoor/mountain_stuff/mount/mount_05,/area/Town_Route/Pal_Park_Pond)
+"bj" = (/turf/outdoor/ledge/ledge_south/ledge_right,/turf/outdoor/mountain_stuff/mount/mount_05,/area/Town_Route/Pal_Park_Pond)
+"bk" = (/turf/outdoor/mountain_stuff/mountT/mount_04,/area/Town_Route/Pal_Park_Forest)
+"bl" = (/turf/outdoor/mountain_stuff/mount/mount_05,/area/Town_Route/Pal_Park_Forest)
+"bm" = (/turf/outdoor/mountain_stuff/mountT/mount_10,/area)
+"bn" = (/turf/outdoor/mountain_stuff/mountT/mount_02,/area)
+"bo" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/water/SW,/area/Town_Route/Pal_Park_Pond)
+"bp" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/water/S,/area/Town_Route/Pal_Park_Pond)
+"bq" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/water/SE,/area/Town_Route/Pal_Park_Pond)
+"br" = (/turf/outdoor/terrain/terrain,/turf/outdoor/mountain_stuff/mountT/mount_01,/area/Town_Route/Pal_Park_Forest)
+"bs" = (/turf/outdoor/mountain_stuff/mountT/mount_02,/area/Town_Route/Pal_Park_Forest)
+"bt" = (/turf/outdoor/mountain_stuff/mountT/mount_02,/area/Town_Route/Pal_Park_Mountain)
+"bu" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/mountain_stuff/mountT/mount_03,/area/Town_Route/Pal_Park_Mountain)
+"bv" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/spawn_grass/tall_grass/NW,/area/Town_Route/Pal_Park_Mountain)
+"bw" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/spawn_grass/tall_grass/N,/area/Town_Route/Pal_Park_Mountain)
+"bx" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/spawn_grass/tall_grass/NE,/area/Town_Route/Pal_Park_Mountain)
+"by" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/mountain_stuff/mountT/mount_06,/area/Town_Route/Pal_Park_Mountain)
+"bz" = (/turf/outdoor/mountain_stair/stair1/left,/area/Town_Route/Pal_Park_Mountain)
+"bA" = (/turf/outdoor/mountain_stair/stair1/middle,/area/Town_Route/Pal_Park_Mountain)
+"bB" = (/turf/outdoor/mountain_stair/stair1/right,/area/Town_Route/Pal_Park_Mountain)
+"bC" = (/turf/outdoor/mountain_stuff/mountT/mount_07,/area/Town_Route/Pal_Park_Mountain)
+"bD" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/mountain_stuff/mountT/mount_08,/area/Town_Route/Pal_Park_Mountain)
+"bE" = (/turf/outdoor/mountain_stuff/mountT/mount_04,/area/Town_Route/Pal_Park_Mountain)
+"bF" = (/turf/outdoor/mountain_stuff/mount/mount_05,/area/Town_Route/Pal_Park_Mountain)
+"bG" = (/turf/outdoor/mountain_stuff/mountT2/mount_10,/area/Town_Route/Pal_Park_Forest)
+"bH" = (/turf/outdoor/mountain_stuff/mountT2/mount_02,/area/Town_Route/Pal_Park_Forest)
+"bI" = (/turf/outdoor/mountain_stuff/mountT2/mount_02,/area/Town_Route/Pal_Park_Mountain)
+"bJ" = (/turf/outdoor/mountain_stuff/mountT/mount_09,/area/Town_Route/Pal_Park_Mountain)
+"bK" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/spawn_grass/tall_grass/W,/area/Town_Route/Pal_Park_Mountain)
+"bL" = (/turf/outdoor/spawn_grass/tall_grass/Center,/area/Town_Route/Pal_Park_Mountain)
+"bM" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/spawn_grass/tall_grass/E,/area/Town_Route/Pal_Park_Mountain)
+"bN" = (/turf/outdoor/mountain_stuff/mountT/mount_05,/area/Town_Route/Pal_Park_Mountain)
+"bO" = (/turf/outdoor/mountain_stuff/mountT2/mount_05,/area/Town_Route/Pal_Park_Forest)
+"bP" = (/turf/outdoor/terrain/terrain,/turf/outdoor/tree/special_version/summer_tree,/area/Town_Route/Pal_Park_Mountain)
+"bQ" = (/turf/outdoor/terrain/terrain,/area/Town_Route/Pal_Park_Mountain)
+"bR" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/mountain_stuff/mountT/mount_01,/area/Town_Route/Pal_Park_Mountain)
+"bS" = (/turf/outdoor/ledge/ledge_east/ledge_middle,/turf/outdoor/mountain_stuff/mount/mount_05,/area/Town_Route/Pal_Park_Mountain)
+"bT" = (/turf/outdoor/mountain_stair/vstair/stair1/left,/area/Town_Route/Pal_Park_Mountain)
+"bU" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/spawn_grass/tall_grass/S,/turf/outdoor/spawn_grass/tall_grass/E,/area/Town_Route/Pal_Park_Mountain)
+"bV" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/spawn_grass/tall_grass/S,/area/Town_Route/Pal_Park_Mountain)
+"bW" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/spawn_grass/tall_grass/SE,/area/Town_Route/Pal_Park_Mountain)
+"bX" = (/turf/outdoor/mountain_stair/vstair/stair1/middle,/area/Town_Route/Pal_Park_Mountain)
+"bY" = (/turf/outdoor/terrain/terrain,/turf/outdoor/mountain_stuff/mountT/mount_06,/area/Town_Route/Pal_Park_Mountain)
+"bZ" = (/turf/outdoor/mountain_stair/stair1,/area/Town_Route/Pal_Park_Mountain)
+"ca" = (/turf/outdoor/mountain_stuff/mountT/mount_11,/area/Town_Route/Pal_Park_Mountain)
+"cb" = (/turf/outdoor/ledge/ledge_northwest_con,/turf/outdoor/mountain_stuff/mount/mount_05,/area/Town_Route/Pal_Park_Mountain)
+"cc" = (/turf/outdoor/ledge/ledge_south/ledge_middle,/turf/outdoor/mountain_stuff/mount/mount_05,/area/Town_Route/Pal_Park_Mountain)
+"cd" = (/turf/outdoor/ledge/ledge_southeast,/turf/outdoor/mountain_stuff/mount/mount_05,/area/Town_Route/Pal_Park_Mountain)
+"ce" = (/turf/outdoor/mountain_stair/vstair/stair1/right,/area/Town_Route/Pal_Park_Mountain)
+"cf" = (/turf/outdoor/terrain/terrain,/area)
+"cg" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/spawn_grass/tall_grass/SW,/area/Town_Route/Pal_Park_Mountain)
+"ch" = (/turf/outdoor/ledge/ledge_east/ledge_left,/turf/outdoor/mountain_stuff/mount/mount_05,/area/Town_Route/Pal_Park_Mountain)
+"ci" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/SW,/area/Town_Route/Pal_Park_Forest)
+"cj" = (/turf/outdoor/terrain/terrain,/turf/outdoor/mountain_stuff/mountT2/mount_01,/area/Town_Route/Pal_Park_Forest)
+"ck" = (/turf/outdoor/terrain/terrain,/turf/outdoor/mountain_stuff/mountT2/mount_03,/area/Town_Route/Pal_Park_Forest)
+"cl" = (/turf/outdoor/mountain_stuff/mountT/mount_10,/area/Town_Route/Pal_Park_Mountain)
+"cm" = (/turf/outdoor/mountain_stair/stair1/left,/area/Town_Route/Pal_Park_Forest)
+"cn" = (/turf/outdoor/mountain_stair/stair1/middle,/area/Town_Route/Pal_Park_Forest)
+"co" = (/turf/outdoor/mountain_stair/stair1/right,/area/Town_Route/Pal_Park_Forest)
+"cp" = (/turf/outdoor/mountain_stair/stair1/left,/area/Town_Route/Pal_Park_Field)
+"cq" = (/turf/outdoor/mountain_stair/stair1/middle,/area/Town_Route/Pal_Park_Field)
+"cr" = (/turf/outdoor/mountain_stair/stair1/right,/area/Town_Route/Pal_Park_Field)
+"cs" = (/turf/outdoor/mountain_stuff/mountT2/mount_09,/area/Town_Route/Pal_Park_Field)
+"ct" = (/turf/outdoor/terrain/terrain,/turf/outdoor/tree/special_version/summer_tree,/area/Town_Route/Pal_Park_Field)
+"cu" = (/turf/outdoor/mountain_stuff/mountT2/mount_05,/area/Town_Route/Pal_Park_Field)
+"cv" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/NW,/area/Town_Route/Pal_Park_Field)
+"cw" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/N,/area/Town_Route/Pal_Park_Field)
+"cx" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/NE,/area/Town_Route/Pal_Park_Field)
+"cy" = (/turf/outdoor/terrain/terrain,/area/Town_Route/Pal_Park_Field)
+"cz" = (/turf/outdoor/mountain_stuff/mountT/mount_04,/area/Town_Route/Pal_Park_Field)
+"cA" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/mountain_stuff/mountT/mount_01,/area/Town_Route/Pal_Park_Field)
+"cB" = (/turf/outdoor/mountain_stuff/mountT/mount_02,/area/Town_Route/Pal_Park_Field)
+"cC" = (/turf/outdoor/mountain_stuff/mount/mount_05,/turf/outdoor/mountain_stuff/mountT/mount_03,/area/Town_Route/Pal_Park_Sea)
+"cD" = (/turf/outdoor/mountain_stuff/mountT/mount_05,/area/Town_Route/Pal_Park_Sea)
+"cE" = (/turf/outdoor/terrain/terrain,/area/Town_Route/Pal_Park_Sea)
+"cF" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/W,/area/Town_Route/Pal_Park_Field)
+"cG" = (/turf/outdoor/spawn_grass/tall_grass/Center,/area/Town_Route/Pal_Park_Field)
+"cH" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/E,/area/Town_Route/Pal_Park_Field)
+"cI" = (/turf/outdoor/mountain_stuff/mountT/mount_02,/area/Town_Route/Pal_Park_Sea)
+"cJ" = (/turf/outdoor/ledge/ledge_south/ledge_left,/turf/outdoor/terrain/terrain,/area/Town_Route/Pal_Park_Sea)
+"cK" = (/turf/outdoor/ledge/ledge_south/ledge_middle,/turf/outdoor/terrain/terrain,/area/Town_Route/Pal_Park_Sea)
+"cL" = (/turf/outdoor/ledge/ledge_south/ledge_right,/turf/outdoor/terrain/terrain,/area/Town_Route/Pal_Park_Sea)
+"cM" = (/turf/outdoor/terrain/terrain,/turf/outdoor/mountain_stuff/mountT/mount_01,/area/Town_Route/Pal_Park_Field)
+"cN" = (/turf/outdoor/terrain/terrain,/turf/outdoor/mountain_stuff/mountT/mount_03,/area/Town_Route/Pal_Park_Sea)
+"cO" = (/turf/outdoor/ledge/ledge_east/ledge_right,/turf/outdoor/terrain/terrain,/area/Town_Route/Pal_Park_Field)
+"cP" = (/turf/outdoor/terrain/terrain,/turf/outdoor/beachgrass/beachgrass01,/area/Town_Route/Pal_Park_Sea)
+"cQ" = (/turf/outdoor/terrain/terrain,/turf/outdoor/beachgrass/beachgrass02,/area/Town_Route/Pal_Park_Sea)
+"cR" = (/turf/outdoor/ledge/ledge_east/ledge_middle,/turf/outdoor/terrain/terrain,/area/Town_Route/Pal_Park_Field)
+"cS" = (/turf/outdoor/terrain/terrain,/turf/outdoor/beachgrass/beachgrass12,/area/Town_Route/Pal_Park_Sea)
+"cT" = (/turf/outdoor/ocean/Center,/area/Town_Route/Pal_Park_Sea)
+"cU" = (/turf/outdoor/ledge/ledge_east/ledge_left,/turf/outdoor/terrain/terrain,/area/Town_Route/Pal_Park_Field)
+"cV" = (/turf/outdoor/terrain/terrain,/turf/outdoor/beachgrass/beachgrass05,/area/Town_Route/Pal_Park_Sea)
+"cW" = (/turf/outdoor/ocean/SECorner,/area/Town_Route/Pal_Park_Sea)
+"cX" = (/turf/outdoor/ocean/S,/area/Town_Route/Pal_Park_Sea)
+"cY" = (/turf/outdoor/ocean/SE,/area/Town_Route/Pal_Park_Sea)
+"cZ" = (/turf/outdoor/ocean/Ocean,/area/Town_Route/Pal_Park_Sea)
+"da" = (/turf/outdoor/ocean/E,/area/Town_Route/Pal_Park_Sea)
+"db" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/SW,/area/Town_Route/Pal_Park_Field)
+"dc" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/S,/area/Town_Route/Pal_Park_Field)
+"dd" = (/turf/outdoor/terrain/terrain,/turf/outdoor/spawn_grass/tall_grass/SE,/area/Town_Route/Pal_Park_Field)
+"de" = (/turf/outdoor/mountain_stuff/mountT2/mount_11,/area/Town_Route/Pal_Park_Field)
+"df" = (/turf/outdoor/mountain_stuff/mountT2/mount_07,/area/Town_Route/Pal_Park_Field)
+"dg" = (/turf/outdoor/terrain/terrain,/turf/outdoor/mountain_stuff/mountT2/mount_08,/area/Town_Route/Pal_Park_Field)
+"dh" = (/turf/outdoor/terrain/terrain{tag = "Pal Park"},/area/Town_Route/Pal_Park_Field)
+"di" = (/turf/outdoor/ocean/NECorner,/area/Town_Route/Pal_Park_Sea)
+"dj" = (/turf/outdoor/ocean/N,/area/Town_Route/Pal_Park_Sea)
+"dk" = (/turf/outdoor/ocean/NE,/area/Town_Route/Pal_Park_Sea)
+"dl" = (/turf/outdoor/terrain/terrain,/turf/outdoor/mountain_stuff/mountT2/mount_06,/area/Town_Route/Pal_Park_Field)
+"dm" = (/turf/outdoor/mountain_stuff/mountT2/mount_07,/area/Town_Route/Pal_Park_Sea)
+"dn" = (/turf/outdoor/ocean/Center,/turf/outdoor/mountain_stuff/mountT/mount_08,/area/Town_Route/Pal_Park_Sea)
+"do" = (/turf/outdoor/mountain_stuff/mountT2/mount_04,/area/Town_Route/Pal_Park_Field)
+"dp" = (/turf/outdoor/terrain/terrain,/turf/outdoor/tree/special_version/summer_tree,/area/Town_Route/Pal_Park_Sea)
+"dq" = (/turf/outdoor/mountain_stuff/mountT2/mount_12,/area/Town_Route/Pal_Park_Field)
+"dr" = (/turf/outdoor/mountain_stuff/mountT/mount_12,/area/Town_Route/Pal_Park_Sea)
+"ds" = (/turf/outdoor/mountain_stuff/mountT/mount_07,/area/Town_Route/Pal_Park_Sea)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababababababababacababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababababababababadababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababababababababadababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababababababababadababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababababababababadababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababababababababadababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ababababababababaeababababadababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababafafafagafafafafahababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababaiababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababajakalamabababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababanaoapaqabababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababababababarasatauabababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}
+
+(1,1,2) = {"
+avavavavavavavavavavavavavavavavavavavavavavavavavawaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxayazazaz
+avavavavavavavavavavavavavavavavavavavavavavavavavawaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaAaxaxax
+avavavavavavavavavavavavavavavavavavavavavavavavavawaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaAaxaxax
+avavavavavavavavavavavavavavavavavavavavavavavavavawaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaAaxaxax
+avavavavavavavavavavavavavavavavavavavavavavavavavawaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaAaxaxax
+avavavavavavavavavavavavavavavavavavavavavavavavavawaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaAaxaxax
+avavavavavavavavavavavavavavavavavavavavavavavavavawaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaAaxaxax
+avavavavavavavavavavavavavavavavavavavavavavavavavawayazazazazazazazazazazazazazazazazazazaBaAaxaxax
+avavavavavavavavavavavavavavavavavavavavavavavavavawaAayazazazazazazazazazazazazazazazazaBaCaAaxaxax
+avavavavavavavavavavavavavavavavavavavavavavavavavawaAaAayazazazazazazazazazazazazazazaBaCaCaAaxaxax
+avavavavavavavavavavavavavavavavavavavavavavavavavawaAaAaAaxaxaxaxaxaxaxaxaxaxaxaxaxaxaCaCaCaAaxaxax
+aDaDaDaDaDaDaDaDaDaDaDaDaDaDaDavavavavavavavavavavawaAaAaEaFaFaFaFaFaFaFaFaFaFaFaFaFaFaGaCaCaAaxaxax
+aHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaIaAaEaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaGaCaAaxaxax
+aDaDaDaDaDaDaDaDaDaDaDaDaDaDaDaDaDaDaDaDaDaDaDaDaDaCaEaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaGaAaxaxax
+aDaDaDaDaDaDaJaKaKaKaKaKaKaKaKaKaKaKaKaKaKaLaMaMaMaNaxaxaxaxaxaxaxaxaxaxaxaxaOaPaPaPaPaPaPaQaAaxaxax
+aDaDaDaDaDaDaRaSaSaSaSaSaSaSaSaSaSaSaSaSaSaTaMaMaMaUaxaxaxaxaxaxaxaxaxaxaxaxaVaWaWaWaWaWaWaXaAaxaxax
+aDaDaDaDaDaDaRaSaYaZaZaZaZaZaZaZaZaZaZaZaZbaaMaMaMaUaxaxaxaxaxaxaxaxaxaxaxaxaVaWaWaWaWaWaWaXaAaxaxax
+aDaDaDaDaDaDaRaSaTaDaDaDaDaDaDaDaDaDaDaDaDaDaDaMaMbbaxaxaxaxaxaxaxaxaxaxaxaxaVaWaWaWaWaWaWaXaAaxaxax
+aDaDaDaDaDaDaRaSaTaDbcaHaHaHaHaHaHaHaHaHaHaHaHaHbdaCaxaxaxaxaxaxaxaxaxaxaxaxaVaWaWaWaWaWaWaXaAaxaxax
+aDaDaDaDaDaDaRaSaTaDbeaDaDaDaDaDaDbfbgbgbgbgbhbhbhazazazazaBbibjayazazazazaBaVaWaWaWaWaWaWaXaAaxaxax
+aDaDaDaDaDaDaRaSaTaDbeaDaDaDaDaDaDbkblblblblbmbnbnaFaFaFaFaGaxaxaEaFaFaFaFaGbobpbpbpbpbpbpbqaAaxaxax
+aDaDaDaDaDaDaRaSaTaDbeaDaDaDaDaDaDbrbsbtbtbtbubvbwbwbwbwbwbwbwbwbwbwbwbwbwbxbybzbAbBbCbCbCbDbEbFbFbF
+aDaDaDaDaDaDaRaSaTaDbeaDaDbGbHbHbHbHbHbIbIbtbJbKbLbLbLbLbLbLbLbLbLbLbLbLbLbMbEbFbFbFbFbFbFbNbEbFbFbF
+aDaDaDaDaDaDaRaSaTaDbeaDaDbOaDaDaDaDaDbPbPbQbEbKbLbLbLbLbLbLbLbLbLbLbLbLbLbMbRbtbtbtbJbFbFbNbEbFbFbF
+aDaDaDaDaDaDaRaSaTaDbeaDaDbOaDaMaMaMaMbQbQbQbEbKbLbLbLbLbLbLbLbLbLbLbLbLbLbMbFbSbFbFbTbFbFbNbEbFbFbF
+aDaDaDaDaDaDaRaSaTaDbeaDaDbOaDaMaMaMaMbQbQbQbEbKbLbLbLbUbVbVbVbVbVbVbVbVbVbWbFbSbFbFbXbFbFbNbEbFbFbF
+aDaDaDaDaDaDaRaSaTaDbeaDaDbOaDaMaMaMaDbYbZbCcabKbLbLbLbMcbcccccccccccccccccccccdbFbFcebFbFbNbEbFbFbF
+aDaDaDaDaDaDaRaSaTaDbeaDaDbOaDcfcfcfavbEbFbFbFcgbVbVbVbWchbFbFbFbFbFbFbFbFbFbFbFbFbFbRbtbtbubRbtbtbt
+aDaDaDaDaDaDciaZbaaDcjbHbHckaDcfcfcfavbEbybCbCbCbCbCbCbDclbtbzbAbBbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtbt
+aDaDaDaDbGbHcmcncobHbHbHbHbHbHcpcqcrcsbEbEbFbFbFbFbFbFbNbNclbzbAbBbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtbt
+ctctctctcucvcwcwcwcwcwcwcwcwcxcycycyczczcAcBcBcBcBcBcBcCcDcDcEcEcEcEcEcEcEcEcEcEcEcEcEcEcEcEcEcEcEcE
+ctctctctcucFcGcGcGcGcGcGcGcGcHcycycyczcAcBcBcBcBcBcBcBcIcCcDcJcKcKcKcKcKcKcKcKcKcLcEcEcEcEcEcEcEcEcE
+ctctctctcucFcGcGcGcGcGcGcGcGcHcycycycMcBcBcBcBcBcBcBcBcIcIcNcEcEcEcEcEcEcEcEcEcEcEcEcEcEcEcEcEcEcEcE
+ctctctctcucFcGcGcGcGcGcGcGcGcHcycycycvcwcwcwcwcxcycOcycEcEcEcEcEcEcEcEcEcEcEcEcEcPcQcQcQcQcQcQcQcQcQ
+ctctctctcucFcGcGcGcGcGcGcGcGcHcycycycFcGcGcGcGcHcycRcycEcEcEcEcEcEcEcEcPcQcQcQcQcScTcTcTcTcTcTcTcTcT
+ctctctctcucFcGcGcGcGcGcGcGcGcHcycycycFcGcGcGcGcHcycUcycEcEcEcEcEcEcEcEcVcTcTcTcTcTcTcTcTcTcTcTcTcTcT
+ctctctctcucFcGcGcGcGcGcGcGcGcHcycycycFcGcGcGcGcHcycycycEcPcQcQcQcQcQcQcScTcTcTcTcTcWcXcXcXcXcXcXcXcX
+ctctctctcucFcGcGcGcGcGcGcGcGcHcycycycFcGcGcGcGcHcycycycEcVcTcTcTcTcTcTcTcTcWcXcXcXcYcZcZcZcZcZcZcZcZ
+ctctctctcucFcGcGcGcGcGcGcGcGcHcycycycFcGcGcGcGcHcycycycEcVcTcTcTcTcWcXcXcXcYcZcZcZcZcZcZcZcZcZcZcZcZ
+ctctctctcucFcGcGcGcGcGcGcGcGcHcycycycFcGcGcGcGcHcycOcycEcVcTcTcTcTdacZcZcZcZcZcZcZcZcZcZcZcZcZcZcZcZ
+ctctctctcudbdcdcdcdcdcdcdcdcddcycycycFcGcGcGcGcHcycRcycEcVcTcTcTcTdacZcZcZcZcZcZcZcZcZcZcZcZcZcZcZcZ
+ctctctctdedfdfdfdfdfdgcycycycycycycycFcGcGcGcGcHcycRcycEcVcTcTcTcTdacZcZcZcZcZcZcZcZcZcZcZcZcZcZcZcZ
+ctctctctctctctctctctcucycycydhcycycydbdcdcdcdcddcycUcycEcVcTcTcTcTdidjdkcZcZcZcZcZcZcZcZcZcZcZcZcZcZ
+ctctctctctctctctctctcucycycycycydldfdfdfdfdgcycycydldfdmdmdmdmdmdmdmdndacZcZcZcZcZcZcZcZcZcZcZcZcZcZ
+ctctctctctctctctctctcucycycycycydocycycycycucycycydoctdpdpdpdpdpdpdpcDdidjdjdjdjdjdjdjdjdjdjdjdjdjdj
+ctctctctctctctctctctdedfdfdfdfdfdqcycycycydedfdfdfdqctdpdpdpdpdpdpdpdrdsdsdsdsdsdsdsdsdsdsdsdsdsdsds
+ctctctctctctctctctctctctctctctctctctctctctctctctctctctdpdpdpdpdpdpdpcWcXcXcXcXcXcXcXcXcXcXcXcXcXcXcX
+ctctctctctctctctctctctctctctctctctctctctctctctctctctctdpdpdpdpdpdpdpdacZcZcZcZcZcZcZcZcZcZcZcZcZcZcZ
+ctctctctctctctctctctctctctctctctctctctctctctctctctctctdpdpdpdpdpdpdpdacZcZcZcZcZcZcZcZcZcZcZcZcZcZcZ
+ctctctctctctctctctctctctctctctctctctctctctctctctctctctdpdpdpdpdpdpdpdacZcZcZcZcZcZcZcZcZcZcZcZcZcZcZ
+"}

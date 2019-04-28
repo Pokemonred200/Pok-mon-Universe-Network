@@ -1,0 +1,73 @@
+"a" = (/turf/indoor/center_design/floor/floor_01,/area/Town_Route/Center)
+"b" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/Plant_01,/area/Town_Route/Center)
+"c" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/counter/counter_09,/area/Town_Route/Center)
+"d" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/machine_02,/area/Town_Route/Center)
+"e" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/counter/counter_01,/area/Town_Route/Center)
+"f" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/PC_01,/area/Town_Route/Center)
+"g" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/Plant_02,/area/Town_Route/Center)
+"h" = (/turf/indoor/center_design/counter/counter_10,/area/Town_Route/Center)
+"i" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/machine_01,/area/Town_Route/Center)
+"j" = (/turf/indoor/center_design/floor/floor_01,/mob/NPC/NurseJoy{layer = 3; step_y = 4},/turf/indoor/center_design/counter/counter_05{layer = 3.01},/area/Town_Route/Center)
+"k" = (/turf/indoor/center_design/floor/floor_01,/mob/StationNPC/Pokemon{icon = 'Region 01.dmi'; icon_state = "Chansey-Hat"; step_y = 4; layer = 3; quotes = list("Chansey, Chan! Chan!"); theCry = '113 Chansey.wav'},/turf/indoor/center_design/counter/counter_07{layer = 3.01},/area/Town_Route/Center)
+"l" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/counter/counter_13,/area/Town_Route/Center)
+"m" = (/turf/indoor/center_design/counter/counter_02,/area/Town_Route/Center)
+"n" = (/turf/indoor/center_design/floor/floor_01,/PCInteract,/turf/indoor/center_design/center_object/PC_02,/area/Town_Route/Center)
+"o" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/counter/counter_12,/area/Town_Route/Center)
+"p" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/counter/counter_08,/area/Town_Route/Center)
+"q" = (/turf/indoor/center_design/floor/floor_01,/skipper,/turf/indoor/center_design/counter/counter_06,/area/Town_Route/Center)
+"r" = (/turf/indoor/center_design/floor/floor_01,/skipper,/turf/indoor/center_design/counter/counter_08,/area/Town_Route/Center)
+"s" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/counter/counter_04,/area/Town_Route/Center)
+"t" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_09,/area/Town_Route/Center)
+"u" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_10,/area/Town_Route/Center)
+"v" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_11,/area/Town_Route/Center)
+"w" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_12,/area/Town_Route/Center)
+"x" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_05,/area/Town_Route/Center)
+"y" = (/turf/indoor/center_design/floor/pokefloor_06,/area/Town_Route/Center)
+"z" = (/turf/indoor/center_design/floor/pokefloor_07,/area/Town_Route/Center)
+"A" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_08,/area/Town_Route/Center)
+"B" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/object_03,/turf/indoor/center_design/center_object/object_01,/area/Town_Route/Center)
+"C" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/object_04,/turf/indoor/center_design/center_object/object_01,/area/Town_Route/Center)
+"D" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/Escalator_05,/area/Town_Route/Center)
+"E" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_01,/area/Town_Route/Center)
+"F" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_02,/area/Town_Route/Center)
+"G" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_03,/area/Town_Route/Center)
+"H" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/floor/pokefloor_04,/area/Town_Route/Center)
+"I" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/object_07,/area/Town_Route/Center)
+"J" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/object_08,/area/Town_Route/Center)
+"K" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/Escalator_03,/area/Town_Route/Center)
+"L" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/Escalator_04,/area/Town_Route/Center)
+"M" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/object_05,/area/Town_Route/Center)
+"N" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/object_06,/area/Town_Route/Center)
+"O" = (/turf/indoor/center_design/center_object/Escalator_01,/area/Town_Route/Center)
+"P" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/Escalator_02,/area/Town_Route/Center)
+"Q" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/door/door_01{density = 0},/area/Town_Route/Center)
+"R" = (/turf/portal/exit_portal{tag = "CenterEnter2"},/turf/indoor/center_design/door/door_02{tag = ""},/area/Town_Route/Center)
+"S" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/door/door_03{density = 0},/area/Town_Route/Center)
+"T" = (/turf/indoor/center_design/floor/floor_01,/turf/indoor/center_design/center_object/object_02,/area/Town_Route/Center)
+"U" = (/turf,/area)
+
+(1,1,1) = {"
+aabaacaadaaaaeaaafaa
+aagaahaaijklamaaanaa
+aaaaaopppqrppsaaaaaa
+aaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaa
+aaaaaaatuvwaaaaaaaaa
+aaaaaaaxyzAaaaaaBCaa
+DaaaaaaEFGHaaaaaIJaa
+KLaaaaaaaaaaaaaaMNaa
+OPaaaaaaQRSaaaaaTTaa
+"}
+
+(1,1,2) = {"
+UUUUUUUUUUUUUUUUUUUU
+UUUUUUUUUUUUUUUUUUUU
+UUUUUUUUUUUUUUUUUUUU
+UUUUUUUUUUUUUUUUUUUU
+UUUUUUUUUUUUUUUUUUUU
+UUUUUUUUUUUUUUUUUUUU
+UUUUUUUUUUUUUUUUUUUU
+UUUUUUUUUUUUUUUUUUUU
+UUUUUUUUUUUUUUUUUUUU
+UUUUUUUUUUUUUUUUUUUU
+"}

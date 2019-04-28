@@ -1,0 +1,50 @@
+"a" = (/turf/indoor/tiles/wall/wall_01,/area/Town_Route/Staff_Area)
+"b" = (/turf/indoor/tiles/wall/wall_15,/area/Town_Route/Staff_Area)
+"c" = (/turf/indoor/tiles/wall/wall_05,/area/Town_Route/Staff_Area)
+"d" = (/turf/indoor/tiles/wall/wall_02,/area/Town_Route/Staff_Area)
+"e" = (/turf/indoor/tiles/wall/wall_16,/area/Town_Route/Staff_Area)
+"f" = (/turf/indoor/tiles/wall/wall_06,/area/Town_Route/Staff_Area)
+"g" = (/turf/indoor/tiles/floor/floor_03,/turf/indoor/tiles/wall/wall_03,/area/Town_Route/Staff_Area)
+"h" = (/turf/indoor/tiles/floor/floor_03,/turf/indoor/tiles/wall/wall_17,/area/Town_Route/Staff_Area)
+"i" = (/turf/indoor/tiles/floor/floor_03,/turf/indoor/tiles/wall/wall_07,/area/Town_Route/Staff_Area)
+"j" = (/turf/indoor/tiles/floor/floor_03,/turf/indoor/tiles/wall/wall_13,/area/Town_Route/Staff_Area)
+"k" = (/turf/indoor/tiles/floor/floor_03,/area/Town_Route/Staff_Area)
+"l" = (/mob/NPC/Shoal_Guy,/turf/indoor/tiles/floor/floor_03,/area/Town_Route/Staff_Area)
+"m" = (/mob/NPC/Mart/MartGuy,/turf/indoor/tiles/floor/floor_03,/area/Town_Route/Staff_Area)
+"n" = (/mob/NPC/NurseJoy,/turf/indoor/tiles/floor/floor_03,/area/Town_Route/Staff_Area)
+"o" = (/mob/NPC/Mart/MartGirl,/turf/indoor/tiles/floor/floor_03,/area/Town_Route/Staff_Area)
+"p" = (/turf/indoor/tiles/floor/floor_03,/turf/indoor/tiles/wall/wall_11,/area/Town_Route/Staff_Area)
+"q" = (/turf/indoor/tiles/floor/floor_03{tag = "Staff Building"},/area/Town_Route/Staff_Area)
+
+(1,1,1) = {"
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbc
+deeeeeeeeeeeeeeeeeeeeeeeeeeeef
+ghhhhhhhhhhhhhhhhhhhhhhhhhhhhi
+jkkkkkkkkkklmnokkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkqkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+jkkkkkkkkkkkkkkkkkkkkkkkkkkkkp
+"}

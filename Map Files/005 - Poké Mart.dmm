@@ -1,0 +1,31 @@
+"a" = (/turf/indoor/market_design/wall/wall_01,/area/Town_Route/Mart,/turf/indoor/market_design/wall/wall_05)
+"b" = (/area/Town_Route/Mart,/turf/indoor/market_design/wall/wall_02)
+"c" = (/turf/indoor/market_design/wall/wall_02,/area/Town_Route/Mart,/turf/indoor/market_design/market_object/object_03)
+"d" = (/turf/indoor/market_design/wall/wall_03,/area/Town_Route/Mart,/turf/indoor/market_design/wall/wall_04)
+"e" = (/area/Town_Route/Mart,/turf/indoor/market_design/floor/floor_01)
+"f" = (/area/Town_Route/Mart,/mob/NPC/Mart/MartGirl{dir = 4},/turf/indoor/market_design/floor/floor_01)
+"g" = (/turf/indoor/market_design/floor/floor_01,/turf/indoor/market_design/counter/counter_05{dir = 4},/area/Town_Route/Mart,/skipper,/turf/indoor/market_design/counter/counter_02)
+"h" = (/obj/map_name{tag = "Mart"},/area/Town_Route/Mart,/turf/indoor/market_design/floor/floor_01)
+"i" = (/area/Town_Route/Mart,/mob/NPC/Mart/MartGuy{dir = 4},/turf/indoor/market_design/floor/floor_01)
+"j" = (/area/Town_Route/Mart,/turf/indoor/market_design/floor/floor_02)
+"k" = (/turf/indoor/market_design/floor/floor_01,/area/Town_Route/Mart,/turf/indoor/market_design/market_object/object_02)
+"l" = (/turf/indoor/market_design/floor/floor_02,/area/Town_Route/Mart,/turf/indoor/market_design/market_object/object_02)
+"m" = (/turf/indoor/market_design/floor/floor_01,/area/Town_Route/Mart,/turf/indoor/market_design/counter/counter_03)
+"n" = (/turf/indoor/market_design/floor/floor_01,/area/Town_Route/Mart,/turf/indoor/market_design/counter/counter_04)
+"o" = (/turf/indoor/market_design/floor/floor_02,/area/Town_Route/Mart,/turf/indoor/market_design/market_object/object_01)
+"p" = (/turf/indoor/market_design/floor/floor_01,/area/Town_Route/Mart,/turf/indoor/market_design/market_object/object_01)
+"q" = (/turf/indoor/market_design/floor/floor_03{color = "#CF0000"; tag = ""},/area/Town_Route/Mart,/turf/portal/exit_portal{tag = "MartEnter1"})
+"r" = (/turf/indoor/market_design/floor/floor_03{color = "#EF0000"},/area/Town_Route/Mart,/turf/portal/exit_portal)
+
+(1,1,1) = {"
+abbbbccccccccccccccd
+eeefgeeeeeeeeeeeeeeh
+eeeigejejejejejejeje
+eeefgeeeeeekkekkekke
+eeeigejejejkleklekle
+mmmmneeeeeekkekkekke
+jejejejejejkleklekle
+eeeeeeeeeeekkekkekke
+opopopopjejklelkjkle
+eeeeeeeeqreeeeeeeeee
+"}

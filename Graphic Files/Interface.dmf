@@ -1,0 +1,4787 @@
+macro "macro"
+	elem 
+		name = "SHIFT+G"
+		command = "toggleGrayscale"
+	elem 
+		name = "SHIFT+H"
+		command = "toggleInversion"
+	elem 
+		name = "Z"
+		command = "Press-Z"
+	elem 
+		name = "F1"
+		command = "world-say"
+	elem 
+		name = "F2"
+		command = "Say"
+	elem 
+		name = "F3"
+		command = "music-toggle"
+	elem 
+		name = "CTRL+F5"
+		command = ".reconnect"
+
+
+menu "menu"
+	elem 
+		name = "&Main Menu"
+		command = ""
+		saved-params = "is-checked"
+	elem 
+		name = "Hub (Link)"
+		command = "http://www.byond.com/games/Vexxen/PUN"
+		category = "&Main Menu"
+		saved-params = "is-checked"
+	elem 
+		name = "Forum (Link)"
+		command = "http://pkmnun.webs.com/"
+		category = "&Main Menu"
+		saved-params = "is-checked"
+	elem 
+		name = "Reconnect"
+		command = ".reconnect"
+		category = "&Main Menu"
+		saved-params = "is-checked"
+	elem 
+		name = "Who's Online?"
+		command = "who"
+		category = "&Main Menu"
+		saved-params = "is-checked"
+	elem 
+		name = ""
+		command = ""
+		category = "&Main Menu"
+		saved-params = "is-checked"
+	elem 
+		name = "Quit"
+		command = ".quit"
+		category = "&Main Menu"
+		saved-params = "is-checked"
+
+
+window "Contest Info"
+	elem "Contest Info"
+		type = MAIN
+		pos = 281,0
+		size = 640x120
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Contest Stats"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "sheenVal"
+		type = LABEL
+		pos = 320,100
+		size = 320x20
+		anchor1 = 50,83
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #da9321
+		background-color = #bbbbbb
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "cuteVal"
+		type = LABEL
+		pos = 320,80
+		size = 320x20
+		anchor1 = 50,67
+		anchor2 = 100,83
+		font-style = "bold"
+		text-color = #800040
+		background-color = #ff5eae
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "coolVal"
+		type = LABEL
+		pos = 320,60
+		size = 320x20
+		anchor1 = 50,50
+		anchor2 = 100,67
+		font-style = "bold"
+		text-color = #800000
+		background-color = #ff5f00
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "toughVal"
+		type = LABEL
+		pos = 320,40
+		size = 320x20
+		anchor1 = 50,33
+		anchor2 = 100,50
+		font-style = "bold"
+		text-color = #ff8000
+		background-color = #ffff00
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "smartVal"
+		type = LABEL
+		pos = 320,20
+		size = 392x20
+		anchor1 = 50,17
+		anchor2 = 100,33
+		font-style = "bold"
+		text-color = #008000
+		background-color = #00ff00
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "label11"
+		type = LABEL
+		pos = 0,100
+		size = 320x20
+		anchor1 = 0,83
+		anchor2 = 50,100
+		font-style = "bold"
+		text-color = #da9321
+		background-color = #bbbbbb
+		border = line
+		saved-params = ""
+		text = "Sheen:"
+	elem "label10"
+		type = LABEL
+		pos = 0,80
+		size = 320x20
+		anchor1 = 0,67
+		anchor2 = 50,83
+		font-style = "bold"
+		text-color = #800040
+		background-color = #ff5eae
+		border = line
+		saved-params = ""
+		text = "Cute:"
+	elem "label9"
+		type = LABEL
+		pos = 0,60
+		size = 320x20
+		anchor1 = 0,50
+		anchor2 = 50,67
+		font-style = "bold"
+		text-color = #800000
+		background-color = #ff5f00
+		border = line
+		saved-params = ""
+		text = "Cool:"
+	elem "label8"
+		type = LABEL
+		pos = 0,40
+		size = 320x20
+		anchor1 = 0,33
+		anchor2 = 50,50
+		font-style = "bold"
+		text-color = #ff8000
+		background-color = #ffff00
+		border = line
+		saved-params = ""
+		text = "Tough:"
+	elem "label6"
+		type = LABEL
+		pos = 0,20
+		size = 320x20
+		anchor1 = 0,17
+		anchor2 = 50,33
+		font-style = "bold"
+		text-color = #008000
+		background-color = #00ff00
+		border = line
+		saved-params = ""
+		text = "Smart:"
+	elem "beautyVal"
+		type = LABEL
+		pos = 320,0
+		size = 320x20
+		anchor1 = 50,0
+		anchor2 = 100,17
+		font-style = "bold"
+		text-color = #004080
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "label3"
+		type = LABEL
+		pos = 0,0
+		size = 320x20
+		anchor1 = 0,0
+		anchor2 = 50,17
+		font-style = "bold"
+		text-color = #004080
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = "Beauty:"
+
+window "Custom Alert"
+	elem "Custom Alert"
+		type = MAIN
+		pos = 281,0
+		size = 381x176
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		border = sunken
+		saved-params = "pos;size;is-minimized;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+	elem "responseButtonTwo"
+		type = BUTTON
+		pos = 191,140
+		size = 191x36
+		anchor1 = 0,80
+		anchor2 = 16,91
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = ""
+		command = "alertResponseTwo"
+	elem "responseButtonOne"
+		type = BUTTON
+		pos = 0,140
+		size = 190x36
+		anchor1 = 0,80
+		anchor2 = 16,91
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = ""
+		command = "alertResponseOne"
+	elem "alertText"
+		type = LABEL
+		pos = 120,20
+		size = 261x120
+		anchor1 = 31,11
+		anchor2 = 100,77
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+		text-wrap = true
+	elem "alertBar"
+		type = LABEL
+		pos = 0,0
+		size = 381x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "alertImageData"
+		type = LABEL
+		pos = 0,20
+		size = 120x120
+		anchor1 = none
+		anchor2 = none
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+
+window "Daycare Window"
+	elem "Daycare Window"
+		type = MAIN
+		pos = 281,0
+		size = 312x84
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Pokémon Day Care"
+		statusbar = false
+		can-minimize = false
+		can-resize = false
+		on-close = "DaycareClose"
+	elem "label26"
+		type = LABEL
+		pos = 0,0
+		size = 312x20
+		anchor1 = 0,0
+		anchor2 = 100,24
+		font-style = "bold"
+		text-color = #80ff80
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = "Pokémon Day Care"
+	elem "daycareButton2"
+		type = BUTTON
+		pos = 252,52
+		size = 60x32
+		anchor1 = 81,62
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #80ff80
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Give"
+		command = "daycareUse 2"
+	elem "daycareButton1"
+		type = BUTTON
+		pos = 252,20
+		size = 60x32
+		anchor1 = 81,24
+		anchor2 = 100,62
+		font-style = "bold"
+		text-color = #80ff80
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Give"
+		command = "daycareUse 1"
+	elem "daycareLevel2"
+		type = LABEL
+		pos = 192,52
+		size = 60x32
+		anchor1 = 62,62
+		anchor2 = 81,100
+		font-style = "bold"
+		text-color = #80ff80
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = "Lv."
+	elem "daycareLevel1"
+		type = LABEL
+		pos = 192,20
+		size = 60x32
+		anchor1 = 62,24
+		anchor2 = 81,62
+		font-style = "bold"
+		text-color = #80ff80
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = "Lv."
+	elem "daycareName2"
+		type = LABEL
+		pos = 40,52
+		size = 152x32
+		anchor1 = 13,62
+		anchor2 = 62,100
+		font-style = "bold"
+		text-color = #00ff00
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "daycareName1"
+		type = LABEL
+		pos = 40,20
+		size = 152x32
+		anchor1 = 13,24
+		anchor2 = 62,62
+		font-style = "bold"
+		text-color = #00ff00
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "daycareIcon2"
+		type = LABEL
+		pos = 0,52
+		size = 40x32
+		anchor1 = none
+		anchor2 = none
+		text-color = #ffffff
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "daycareIcon1"
+		type = LABEL
+		pos = 0,20
+		size = 40x32
+		anchor1 = 0,24
+		anchor2 = 13,62
+		text-color = #ffffff
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+
+window "EVs"
+	elem "EVs"
+		type = MAIN
+		pos = 281,0
+		size = 640x120
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "EVs"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "speedEvVal"
+		type = LABEL
+		pos = 320,100
+		size = 320x20
+		anchor1 = 50,83
+		anchor2 = 100,100
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "sdefEvVal"
+		type = LABEL
+		pos = 320,80
+		size = 320x20
+		anchor1 = 50,67
+		anchor2 = 100,83
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "satkEvVal"
+		type = LABEL
+		pos = 320,60
+		size = 320x20
+		anchor1 = 50,50
+		anchor2 = 100,67
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "defEvVal"
+		type = LABEL
+		pos = 320,40
+		size = 320x20
+		anchor1 = 50,33
+		anchor2 = 100,50
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "atkEvVal"
+		type = LABEL
+		pos = 320,20
+		size = 392x20
+		anchor1 = 50,17
+		anchor2 = 100,33
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "label11"
+		type = LABEL
+		pos = 0,100
+		size = 320x20
+		anchor1 = 0,83
+		anchor2 = 50,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Speed EV:"
+	elem "label10"
+		type = LABEL
+		pos = 0,80
+		size = 320x20
+		anchor1 = 0,67
+		anchor2 = 50,83
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Special Defense EV:"
+	elem "label9"
+		type = LABEL
+		pos = 0,60
+		size = 320x20
+		anchor1 = 0,50
+		anchor2 = 50,67
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Special Attack EV:"
+	elem "label8"
+		type = LABEL
+		pos = 0,40
+		size = 320x20
+		anchor1 = 0,33
+		anchor2 = 50,50
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Defense EV:"
+	elem "label6"
+		type = LABEL
+		pos = 0,20
+		size = 320x20
+		anchor1 = 0,17
+		anchor2 = 50,33
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Attack EV:"
+	elem "hpEvVal"
+		type = LABEL
+		pos = 320,0
+		size = 320x20
+		anchor1 = 50,0
+		anchor2 = 100,17
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "label3"
+		type = LABEL
+		pos = 0,0
+		size = 320x20
+		anchor1 = 0,0
+		anchor2 = 50,17
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "HP EV:"
+
+window "EggSummary"
+	elem "EggSummary"
+		type = MAIN
+		pos = 281,0
+		size = 290x72
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+	elem "eggDate"
+		type = LABEL
+		pos = 0,20
+		size = 290x20
+		anchor1 = 0,28
+		anchor2 = 100,56
+		font-style = "bold"
+		text-color = #00ff00
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = "Egg Obtained On:"
+		align = left
+	elem "eggMet"
+		type = LABEL
+		pos = 0,0
+		size = 290x20
+		anchor1 = 0,0
+		anchor2 = 100,28
+		font-style = "bold"
+		text-color = #00ff00
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = "Egg Obtained From:"
+		align = left
+	elem "eggDesc"
+		type = LABEL
+		pos = 0,40
+		size = 290x32
+		anchor1 = 0,56
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #00ff00
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = "What could hatch from this egg? It doesn't seem close to hatching."
+		align = top-left
+		text-wrap = true
+
+window "IVs"
+	elem "IVs"
+		type = MAIN
+		pos = 281,0
+		size = 640x120
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "IVs"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "speedIvVal"
+		type = LABEL
+		pos = 320,100
+		size = 320x20
+		anchor1 = 50,83
+		anchor2 = 100,100
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "sdefIvVal"
+		type = LABEL
+		pos = 320,80
+		size = 320x20
+		anchor1 = 50,67
+		anchor2 = 100,83
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "satkIvVal"
+		type = LABEL
+		pos = 320,60
+		size = 320x20
+		anchor1 = 50,50
+		anchor2 = 100,67
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "defIvVal"
+		type = LABEL
+		pos = 320,40
+		size = 320x20
+		anchor1 = 50,33
+		anchor2 = 100,50
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "atkIvVal"
+		type = LABEL
+		pos = 320,20
+		size = 392x20
+		anchor1 = 50,17
+		anchor2 = 100,33
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "label11"
+		type = LABEL
+		pos = 0,100
+		size = 320x20
+		anchor1 = 0,83
+		anchor2 = 50,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Speed IV:"
+	elem "label10"
+		type = LABEL
+		pos = 0,80
+		size = 320x20
+		anchor1 = 0,67
+		anchor2 = 50,83
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Special Defense IV:"
+	elem "label9"
+		type = LABEL
+		pos = 0,60
+		size = 320x20
+		anchor1 = 0,50
+		anchor2 = 50,67
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Special Attack IV:"
+	elem "label8"
+		type = LABEL
+		pos = 0,40
+		size = 320x20
+		anchor1 = 0,33
+		anchor2 = 50,50
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Defense IV:"
+	elem "label6"
+		type = LABEL
+		pos = 0,20
+		size = 320x20
+		anchor1 = 0,17
+		anchor2 = 50,33
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Attack IV:"
+	elem "hpIvVal"
+		type = LABEL
+		pos = 320,0
+		size = 320x20
+		anchor1 = 50,0
+		anchor2 = 100,17
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "label3"
+		type = LABEL
+		pos = 0,0
+		size = 320x20
+		anchor1 = 0,0
+		anchor2 = 50,17
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "HP IV:"
+
+window "PCBox"
+	elem "PCBox"
+		type = MAIN
+		pos = 281,0
+		size = 440x392
+		anchor1 = none
+		anchor2 = none
+		background-color = #000000
+		is-visible = false
+		border = sunken
+		saved-params = "pos;size;is-minimized;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+	elem "label4"
+		type = LABEL
+		pos = 400,168
+		size = 40x32
+		anchor1 = none
+		anchor2 = none
+		text-color = #ffffff
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "button6"
+		type = BUTTON
+		pos = 0,352
+		size = 400x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Open Party"
+		command = "PartyOpen"
+	elem "button5"
+		type = BUTTON
+		pos = 0,372
+		size = 400x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Close Box"
+		command = "closeBox"
+	elem "boxName"
+		type = LABEL
+		pos = 32,0
+		size = 336x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = "Box 1"
+	elem "button4"
+		type = BUTTON
+		pos = 368,0
+		size = 32x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = ">"
+		command = "switchBoxRight"
+	elem "button2"
+		type = BUTTON
+		pos = 0,0
+		size = 32x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "<"
+		command = "switchBoxLeft"
+	elem "child1"
+		type = CHILD
+		pos = 0,32
+		size = 400x320
+		anchor1 = 0,8
+		anchor2 = 91,90
+		border = line
+		saved-params = "splitter"
+		left = "boxWindow"
+		is-vert = false
+
+window "PKMNSummary"
+	elem "PKMNSummary"
+		type = MAIN
+		pos = 281,0
+		size = 750x577
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+		can-resize = false
+		on-close = "closeSummary"
+	elem "pokerusLabel"
+		type = LABEL
+		pos = 264,0
+		size = 48x32
+		anchor1 = 35,0
+		anchor2 = 42,6
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "typeLabel"
+		type = LABEL
+		pos = 312,0
+		size = 48x64
+		anchor1 = 42,0
+		anchor2 = 48,11
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "label30"
+		type = LABEL
+		pos = 0,32
+		size = 312x32
+		anchor1 = 0,6
+		anchor2 = 42,11
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = "Friendship:"
+		align = left
+	elem "friendship"
+		type = BAR
+		pos = 64,40
+		size = 240x16
+		anchor1 = 9,7
+		anchor2 = 41,10
+		background-color = #804040
+		saved-params = ""
+		bar-color = #ff0080
+		is-slider = false
+		width = 0
+		dir = east
+	elem "browser4"
+		type = BROWSER
+		pos = 0,64
+		size = 360x472
+		anchor1 = 0,11
+		anchor2 = 48,93
+		border = line
+		saved-params = ""
+	elem "itemButton"
+		type = BUTTON
+		pos = 320,536
+		size = 41x41
+		anchor1 = 43,93
+		anchor2 = 48,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Take"
+		command = "giveTakeItem"
+	elem "itemLabel"
+		type = LABEL
+		pos = 0,536
+		size = 320x41
+		anchor1 = 0,93
+		anchor2 = 43,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "map3"
+		type = MAP
+		pos = 0,0
+		size = 32x32
+		anchor1 = 0,0
+		anchor2 = 4,6
+		background-color = #ffffff
+		border = line
+		saved-params = "icon-size"
+		icon-size = 32
+		zoom = 1
+	elem "PKMName"
+		type = LABEL
+		pos = 32,0
+		size = 232x32
+		anchor1 = 4,0
+		anchor2 = 35,6
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "tab3"
+		type = TAB
+		pos = 360,0
+		size = 390x577
+		anchor1 = 48,0
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		tabs = "mainInfo,mainStats,IVs,EVs,Contest Info,moves,ribbons"
+		current-tab = "mainInfo"
+
+window "PartySwap"
+	elem "PartySwap"
+		type = MAIN
+		pos = 281,0
+		size = 324x212
+		anchor1 = none
+		anchor2 = none
+		background-color = #0000ff
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		on-close = "resetPartySwapCommands"
+	elem "partyClose"
+		type = BUTTON
+		pos = 0,192
+		size = 324x20
+		anchor1 = 0,91
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Cancel Switch"
+		command = "switchClose"
+	elem "healthBar6"
+		type = BAR
+		pos = 224,160
+		size = 100x32
+		anchor1 = 69,75
+		anchor2 = 100,91
+		background-color = #0000ff
+		saved-params = ""
+		bar-color = #00ff00
+		is-slider = false
+		dir = east
+		value = 100
+	elem "healthBar5"
+		type = BAR
+		pos = 224,128
+		size = 100x32
+		anchor1 = 69,60
+		anchor2 = 100,75
+		background-color = #0000ff
+		saved-params = ""
+		bar-color = #00ff00
+		is-slider = false
+		dir = east
+		value = 100
+	elem "healthBar4"
+		type = BAR
+		pos = 224,96
+		size = 100x32
+		anchor1 = 69,45
+		anchor2 = 100,60
+		background-color = #0000ff
+		saved-params = ""
+		bar-color = #00ff00
+		is-slider = false
+		dir = east
+		value = 100
+	elem "healthBar3"
+		type = BAR
+		pos = 224,64
+		size = 100x32
+		anchor1 = 69,30
+		anchor2 = 100,45
+		background-color = #0000ff
+		saved-params = ""
+		bar-color = #00ff00
+		is-slider = false
+		dir = east
+		value = 100
+	elem "healthBar2"
+		type = BAR
+		pos = 224,32
+		size = 100x32
+		anchor1 = 69,15
+		anchor2 = 100,30
+		background-color = #0000ff
+		saved-params = ""
+		bar-color = #00ff00
+		is-slider = false
+		dir = east
+		value = 100
+	elem "partyBattle6"
+		type = LABEL
+		pos = 40,160
+		size = 184x32
+		anchor1 = 12,75
+		anchor2 = 69,91
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "partyBattle5"
+		type = LABEL
+		pos = 40,128
+		size = 184x32
+		anchor1 = 12,60
+		anchor2 = 69,75
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "partyBattle4"
+		type = LABEL
+		pos = 40,96
+		size = 184x32
+		anchor1 = 12,45
+		anchor2 = 69,60
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "partyBattle3"
+		type = LABEL
+		pos = 40,64
+		size = 184x32
+		anchor1 = 12,30
+		anchor2 = 69,45
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "partyBattle2"
+		type = LABEL
+		pos = 40,32
+		size = 184x32
+		anchor1 = 12,15
+		anchor2 = 69,30
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "healthBar1"
+		type = BAR
+		pos = 224,0
+		size = 100x32
+		anchor1 = 69,0
+		anchor2 = 100,15
+		background-color = #0000ff
+		saved-params = ""
+		bar-color = #00ff00
+		is-slider = false
+		dir = east
+		value = 100
+	elem "partyBattle1"
+		type = LABEL
+		pos = 40,0
+		size = 184x32
+		anchor1 = 12,0
+		anchor2 = 69,15
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "partySwap6"
+		type = BUTTON
+		pos = 0,160
+		size = 40x32
+		anchor1 = 0,75
+		anchor2 = 12,91
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "battleSwap 6 0"
+	elem "partySwap5"
+		type = BUTTON
+		pos = 0,128
+		size = 40x32
+		anchor1 = 0,60
+		anchor2 = 12,75
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "battleSwap 5 0"
+	elem "partySwap4"
+		type = BUTTON
+		pos = 0,96
+		size = 40x32
+		anchor1 = 0,45
+		anchor2 = 12,60
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "battleSwap 4 0"
+	elem "partySwap3"
+		type = BUTTON
+		pos = 0,64
+		size = 40x32
+		anchor1 = 0,30
+		anchor2 = 12,45
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "battleSwap 3 0"
+	elem "partySwap2"
+		type = BUTTON
+		pos = 0,32
+		size = 40x32
+		anchor1 = 0,15
+		anchor2 = 12,30
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "battleSwap 2 0"
+	elem "partySwap1"
+		type = BUTTON
+		pos = 0,0
+		size = 40x32
+		anchor1 = 0,0
+		anchor2 = 12,15
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "battleSwap 1 0"
+
+window "ShopWindow"
+	elem "ShopWindow"
+		type = MAIN
+		pos = 281,0
+		size = 391x442
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+		can-resize = false
+	elem "ShopGrid"
+		type = GRID
+		pos = 0,0
+		size = 391x442
+		anchor1 = 0,0
+		anchor2 = 100,100
+		background-color = #0000ff
+		border = line
+		saved-params = ""
+		cells = 1x1
+		current-cell = 1,1
+		link-color = #00ff00
+		highlight-color = #000000
+		style = "IMG.icon{width:32;height:32}\n"
+
+window "Trainer Card"
+	elem "Trainer Card"
+		type = MAIN
+		pos = 281,0
+		size = 600x185
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		border = sunken
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Trainer Card"
+		statusbar = false
+		can-minimize = false
+		can-resize = false
+	elem "playerPortrait"
+		type = LABEL
+		pos = 424,0
+		size = 176x185
+		anchor1 = 71,0
+		anchor2 = 100,100
+		background-color = #400000
+		border = line
+		saved-params = ""
+		text = ""
+		image-mode = stretch
+	elem "moneyDisplay"
+		type = LABEL
+		pos = 77,24
+		size = 347x24
+		anchor1 = 13,13
+		anchor2 = 71,26
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "TrainerCard"
+		type = LABEL
+		pos = 0,0
+		size = 424x24
+		anchor1 = 0,0
+		anchor2 = 71,13
+		border = line
+		saved-params = ""
+		text = "Trainer Card"
+	elem "label7"
+		type = LABEL
+		pos = 0,48
+		size = 424x137
+		anchor1 = 0,26
+		anchor2 = 71,100
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "MoneyStuff"
+		type = LABEL
+		pos = 0,24
+		size = 78x24
+		anchor1 = 0,13
+		anchor2 = 13,26
+		background-color = #6c0000
+		border = line
+		saved-params = ""
+		text = "Money:"
+
+window "announcement"
+	elem "announcement"
+		type = MAIN
+		pos = 281,0
+		size = 200x200
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Announcement"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "announcement"
+		type = OUTPUT
+		pos = 0,0
+		size = 200x200
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = "Calibri"
+		font-size = 10
+		text-color = #c0c0c0
+		background-color = #282828
+		border = sunken
+		saved-params = "max-lines"
+		link-color = #0080ff
+		visited-color = #ff0080
+		style = "IMG.icon{width:32;height:32}\n"
+		max-lines = 0
+
+window "apricornBox"
+	elem "apricornBox"
+		type = MAIN
+		pos = 281,0
+		size = 192x256
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+		can-minimize = false
+		can-resize = false
+	elem "label45"
+		type = LABEL
+		pos = 64,224
+		size = 128x32
+		anchor1 = 33,88
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Orange Apricorns"
+	elem "label44"
+		type = LABEL
+		pos = 64,192
+		size = 128x32
+		anchor1 = 33,75
+		anchor2 = 100,88
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Pink Apricorns"
+	elem "label43"
+		type = LABEL
+		pos = 64,160
+		size = 128x32
+		anchor1 = 33,63
+		anchor2 = 100,75
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "White Apricorns"
+	elem "label42"
+		type = LABEL
+		pos = 64,128
+		size = 128x32
+		anchor1 = 33,50
+		anchor2 = 100,63
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Black Apricorns"
+	elem "label41"
+		type = LABEL
+		pos = 64,96
+		size = 128x32
+		anchor1 = 33,38
+		anchor2 = 100,50
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Yellow Apricorns"
+	elem "label40"
+		type = LABEL
+		pos = 64,64
+		size = 128x32
+		anchor1 = 33,25
+		anchor2 = 100,38
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Green Apricorns"
+	elem "label39"
+		type = LABEL
+		pos = 64,32
+		size = 128x32
+		anchor1 = 33,13
+		anchor2 = 100,25
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Blue Apricorns"
+	elem "label38"
+		type = LABEL
+		pos = 64,0
+		size = 128x32
+		anchor1 = 33,0
+		anchor2 = 100,13
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Red Apricorns"
+	elem "orangeApricornTotal"
+		type = LABEL
+		pos = 32,224
+		size = 32x32
+		anchor1 = 17,88
+		anchor2 = 33,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "pinkApricornTotal"
+		type = LABEL
+		pos = 32,192
+		size = 32x32
+		anchor1 = 17,75
+		anchor2 = 33,88
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "whiteApricornTotal"
+		type = LABEL
+		pos = 32,160
+		size = 32x32
+		anchor1 = 17,63
+		anchor2 = 33,75
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "blackApricornTotal"
+		type = LABEL
+		pos = 32,128
+		size = 32x32
+		anchor1 = 17,50
+		anchor2 = 33,63
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "yellowApricornTotal"
+		type = LABEL
+		pos = 32,96
+		size = 32x32
+		anchor1 = 17,38
+		anchor2 = 33,50
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "greenApricornTotal"
+		type = LABEL
+		pos = 32,64
+		size = 32x32
+		anchor1 = 17,25
+		anchor2 = 33,38
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "blueApricornTotal"
+		type = LABEL
+		pos = 32,32
+		size = 32x32
+		anchor1 = 17,13
+		anchor2 = 33,25
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "redApricornTotal"
+		type = LABEL
+		pos = 32,0
+		size = 32x32
+		anchor1 = 17,0
+		anchor2 = 33,13
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "label29"
+		type = LABEL
+		pos = 0,224
+		size = 32x32
+		anchor1 = 0,88
+		anchor2 = 17,100
+		background-color = #ff8000
+		saved-params = ""
+		text = ""
+		image = 'Icon Files\\Items\\Apricorns\\Orange Apricorn.dmi'
+	elem "label28"
+		type = LABEL
+		pos = 0,192
+		size = 32x32
+		anchor1 = 0,75
+		anchor2 = 17,88
+		background-color = #ff8000
+		saved-params = ""
+		text = ""
+		image = 'Icon Files\\Items\\Apricorns\\Pink Apricorn.dmi'
+	elem "label27"
+		type = LABEL
+		pos = 0,160
+		size = 32x32
+		anchor1 = 0,63
+		anchor2 = 17,75
+		background-color = #ff8000
+		saved-params = ""
+		text = ""
+		image = 'Icon Files\\Items\\Apricorns\\White Apricorn.dmi'
+	elem "label25"
+		type = LABEL
+		pos = 0,128
+		size = 32x32
+		anchor1 = 0,50
+		anchor2 = 17,63
+		background-color = #ff8000
+		saved-params = ""
+		text = ""
+		image = 'Icon Files\\Items\\Apricorns\\Black Apricorn.dmi'
+	elem "label24"
+		type = LABEL
+		pos = 0,96
+		size = 32x32
+		anchor1 = 0,38
+		anchor2 = 17,50
+		background-color = #ff8000
+		saved-params = ""
+		text = ""
+		image = 'Icon Files\\Items\\Apricorns\\Yellow Apricorn.dmi'
+	elem "label23"
+		type = LABEL
+		pos = 0,64
+		size = 32x32
+		anchor1 = 0,25
+		anchor2 = 17,38
+		background-color = #ff8000
+		saved-params = ""
+		text = ""
+		image = 'Icon Files\\Items\\Apricorns\\Green Apricorn.dmi'
+	elem "label22"
+		type = LABEL
+		pos = 0,32
+		size = 32x32
+		anchor1 = 0,13
+		anchor2 = 17,25
+		background-color = #ff8000
+		saved-params = ""
+		text = ""
+		image = 'Icon Files\\Items\\Apricorns\\Blue Apricorn.dmi'
+	elem "label21"
+		type = LABEL
+		pos = 0,0
+		size = 32x32
+		anchor1 = 0,0
+		anchor2 = 17,13
+		background-color = #ff8000
+		saved-params = ""
+		text = ""
+		image = 'Icon Files\\Items\\Apricorns\\Red Apricorn.dmi'
+
+window "bagWindow"
+	elem "bagWindow"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+	elem "bagTab"
+		type = TAB
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		tabs = "items,berries,medicine,pokeballs,tms,battleItems,keyItems"
+		current-tab = "items"
+
+window "battleItems"
+	elem "battleItems"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Battle Items"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "battleItemGrid"
+		type = GRID
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		cells = 1x1
+		current-cell = 1,1
+		line-color = #ffff00
+		highlight-color = #000000
+		style = "IMG.icon{width:32;height:32}"
+
+window "berries"
+	elem "berries"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Berries"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "berryGrid"
+		type = GRID
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		cells = 1x1
+		current-cell = 1,1
+		line-color = #ffff00
+		style = "IMG.icon{width:32;height:32}"
+
+window "boxWindow"
+	elem "boxWindow"
+		type = MAIN
+		pos = 281,0
+		size = 400x320
+		anchor1 = none
+		anchor2 = none
+		border = sunken
+		saved-params = "pos;size;is-minimized;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "box6x9"
+		type = BUTTON
+		pos = 320,160
+		size = 40x32
+		anchor1 = 80,50
+		anchor2 = 90,60
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 6 9"
+	elem "box8x9"
+		type = BUTTON
+		pos = 320,224
+		size = 40x32
+		anchor1 = 80,70
+		anchor2 = 90,80
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 8 9"
+	elem "box7x8"
+		type = BUTTON
+		pos = 280,192
+		size = 40x32
+		anchor1 = 70,60
+		anchor2 = 80,70
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 7 8"
+	elem "box6x7"
+		type = BUTTON
+		pos = 240,160
+		size = 40x32
+		anchor1 = 60,50
+		anchor2 = 70,60
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 6 7"
+	elem "box8x7"
+		type = BUTTON
+		pos = 240,224
+		size = 40x32
+		anchor1 = 60,70
+		anchor2 = 70,80
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 8 7"
+	elem "box7x6"
+		type = BUTTON
+		pos = 200,192
+		size = 40x32
+		anchor1 = 50,60
+		anchor2 = 60,70
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 7 6"
+	elem "box6x8"
+		type = BUTTON
+		pos = 280,160
+		size = 40x32
+		anchor1 = 70,50
+		anchor2 = 80,60
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 6 8"
+	elem "box8x6"
+		type = BUTTON
+		pos = 200,224
+		size = 40x32
+		anchor1 = 50,70
+		anchor2 = 60,80
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 8 6"
+	elem "box7x9"
+		type = BUTTON
+		pos = 320,192
+		size = 40x32
+		anchor1 = 80,60
+		anchor2 = 90,70
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 7 9"
+	elem "box8x8"
+		type = BUTTON
+		pos = 280,224
+		size = 40x32
+		anchor1 = 70,70
+		anchor2 = 80,80
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 8 8"
+	elem "box7x7"
+		type = BUTTON
+		pos = 240,192
+		size = 40x32
+		anchor1 = 60,60
+		anchor2 = 70,70
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 7 7"
+	elem "box6x6"
+		type = BUTTON
+		pos = 200,160
+		size = 40x32
+		anchor1 = 50,50
+		anchor2 = 60,60
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 6 6"
+	elem "box8x5"
+		type = BUTTON
+		pos = 160,224
+		size = 40x32
+		anchor1 = 40,70
+		anchor2 = 50,80
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 8 5"
+	elem "box7x5"
+		type = BUTTON
+		pos = 160,192
+		size = 40x32
+		anchor1 = 40,60
+		anchor2 = 50,70
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 7 5"
+	elem "box6x5"
+		type = BUTTON
+		pos = 160,160
+		size = 40x32
+		anchor1 = 40,50
+		anchor2 = 50,60
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 6 5"
+	elem "box8x4"
+		type = BUTTON
+		pos = 120,224
+		size = 40x32
+		anchor1 = 30,70
+		anchor2 = 40,80
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 8 4"
+	elem "box7x4"
+		type = BUTTON
+		pos = 120,192
+		size = 40x32
+		anchor1 = 30,60
+		anchor2 = 40,70
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 7 4"
+	elem "box6x4"
+		type = BUTTON
+		pos = 120,160
+		size = 40x32
+		anchor1 = 30,50
+		anchor2 = 40,60
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 6 4"
+	elem "box8x3"
+		type = BUTTON
+		pos = 80,224
+		size = 40x32
+		anchor1 = 20,70
+		anchor2 = 30,80
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 8 3"
+	elem "box7x3"
+		type = BUTTON
+		pos = 80,192
+		size = 40x32
+		anchor1 = 20,60
+		anchor2 = 30,70
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 7 3"
+	elem "box6x3"
+		type = BUTTON
+		pos = 80,160
+		size = 40x32
+		anchor1 = 20,50
+		anchor2 = 30,60
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 6 3"
+	elem "box9x9"
+		type = BUTTON
+		pos = 320,256
+		size = 40x32
+		anchor1 = 80,80
+		anchor2 = 90,90
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 9 9"
+	elem "box9x8"
+		type = BUTTON
+		pos = 280,256
+		size = 40x32
+		anchor1 = 70,80
+		anchor2 = 80,90
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 9 8"
+	elem "box9x7"
+		type = BUTTON
+		pos = 240,256
+		size = 40x32
+		anchor1 = 60,80
+		anchor2 = 70,90
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 9 7"
+	elem "box9x6"
+		type = BUTTON
+		pos = 200,256
+		size = 40x32
+		anchor1 = 50,80
+		anchor2 = 60,90
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 9 6"
+	elem "box9x5"
+		type = BUTTON
+		pos = 160,256
+		size = 40x32
+		anchor1 = 40,80
+		anchor2 = 50,90
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 9 5"
+	elem "box9x4"
+		type = BUTTON
+		pos = 120,256
+		size = 40x32
+		anchor1 = 30,80
+		anchor2 = 40,90
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 9 4"
+	elem "box9x3"
+		type = BUTTON
+		pos = 80,256
+		size = 40x32
+		anchor1 = 20,80
+		anchor2 = 30,90
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 9 3"
+	elem "box9x2"
+		type = BUTTON
+		pos = 40,256
+		size = 40x32
+		anchor1 = 10,80
+		anchor2 = 20,90
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 9 2"
+	elem "box8x2"
+		type = BUTTON
+		pos = 40,224
+		size = 40x32
+		anchor1 = 10,70
+		anchor2 = 20,80
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 8 2"
+	elem "box7x2"
+		type = BUTTON
+		pos = 40,192
+		size = 40x32
+		anchor1 = 10,60
+		anchor2 = 20,70
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 7 2"
+	elem "box6x2"
+		type = BUTTON
+		pos = 40,160
+		size = 40x32
+		anchor1 = 10,50
+		anchor2 = 20,60
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 6 2"
+	elem "box5x9"
+		type = BUTTON
+		pos = 320,128
+		size = 40x32
+		anchor1 = 80,40
+		anchor2 = 90,50
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 5 9"
+	elem "box5x8"
+		type = BUTTON
+		pos = 280,128
+		size = 40x32
+		anchor1 = 70,40
+		anchor2 = 80,50
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 5 8"
+	elem "box5x7"
+		type = BUTTON
+		pos = 240,128
+		size = 40x32
+		anchor1 = 60,40
+		anchor2 = 70,50
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 5 7"
+	elem "box5x6"
+		type = BUTTON
+		pos = 200,128
+		size = 40x32
+		anchor1 = 50,40
+		anchor2 = 60,50
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 5 6"
+	elem "box5x5"
+		type = BUTTON
+		pos = 160,128
+		size = 40x32
+		anchor1 = 40,40
+		anchor2 = 50,50
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 5 5"
+	elem "box5x4"
+		type = BUTTON
+		pos = 120,128
+		size = 40x32
+		anchor1 = 30,40
+		anchor2 = 40,50
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 5 4"
+	elem "box5x3"
+		type = BUTTON
+		pos = 80,128
+		size = 40x32
+		anchor1 = 20,40
+		anchor2 = 30,50
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 5 3"
+	elem "box5x2"
+		type = BUTTON
+		pos = 40,128
+		size = 40x32
+		anchor1 = 10,40
+		anchor2 = 20,50
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 5 2"
+	elem "box4x9"
+		type = BUTTON
+		pos = 320,96
+		size = 40x32
+		anchor1 = 80,30
+		anchor2 = 90,40
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 4 9"
+	elem "box4x8"
+		type = BUTTON
+		pos = 280,96
+		size = 40x32
+		anchor1 = 70,30
+		anchor2 = 80,40
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 4 8"
+	elem "box4x7"
+		type = BUTTON
+		pos = 240,96
+		size = 40x32
+		anchor1 = 60,30
+		anchor2 = 70,40
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 4 7"
+	elem "box4x6"
+		type = BUTTON
+		pos = 200,96
+		size = 40x32
+		anchor1 = 50,30
+		anchor2 = 60,40
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 4 6"
+	elem "box4x5"
+		type = BUTTON
+		pos = 160,96
+		size = 40x32
+		anchor1 = 40,30
+		anchor2 = 50,40
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 4 5"
+	elem "box4x4"
+		type = BUTTON
+		pos = 120,96
+		size = 40x32
+		anchor1 = 30,30
+		anchor2 = 40,40
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 4 4"
+	elem "box4x3"
+		type = BUTTON
+		pos = 80,96
+		size = 40x32
+		anchor1 = 20,30
+		anchor2 = 30,40
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 4 3"
+	elem "box4x2"
+		type = BUTTON
+		pos = 40,96
+		size = 40x32
+		anchor1 = 10,30
+		anchor2 = 20,40
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 4 2"
+	elem "box3x9"
+		type = BUTTON
+		pos = 320,64
+		size = 40x32
+		anchor1 = 80,20
+		anchor2 = 90,30
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 3 9"
+	elem "box3x8"
+		type = BUTTON
+		pos = 280,64
+		size = 40x32
+		anchor1 = 70,20
+		anchor2 = 80,30
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 3 8"
+	elem "box3x7"
+		type = BUTTON
+		pos = 240,64
+		size = 40x32
+		anchor1 = 60,20
+		anchor2 = 70,30
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 3 7"
+	elem "box3x6"
+		type = BUTTON
+		pos = 200,64
+		size = 40x32
+		anchor1 = 50,20
+		anchor2 = 60,30
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 3 6"
+	elem "box3x5"
+		type = BUTTON
+		pos = 160,64
+		size = 40x32
+		anchor1 = 40,20
+		anchor2 = 50,30
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 3 5"
+	elem "box3x4"
+		type = BUTTON
+		pos = 120,64
+		size = 40x32
+		anchor1 = 30,20
+		anchor2 = 40,30
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 3 4"
+	elem "box3x3"
+		type = BUTTON
+		pos = 80,64
+		size = 40x32
+		anchor1 = 20,20
+		anchor2 = 30,30
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 3 3"
+	elem "box3x2"
+		type = BUTTON
+		pos = 40,64
+		size = 40x32
+		anchor1 = 10,20
+		anchor2 = 20,30
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo  3 2"
+	elem "box9x10"
+		type = BUTTON
+		pos = 360,256
+		size = 40x32
+		anchor1 = 90,80
+		anchor2 = 100,90
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 9 10"
+	elem "box8x10"
+		type = BUTTON
+		pos = 360,224
+		size = 40x32
+		anchor1 = 90,70
+		anchor2 = 100,80
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 8 10"
+	elem "box7x10"
+		type = BUTTON
+		pos = 360,192
+		size = 40x32
+		anchor1 = 90,60
+		anchor2 = 100,70
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 7 10"
+	elem "box6x10"
+		type = BUTTON
+		pos = 360,160
+		size = 40x32
+		anchor1 = 90,50
+		anchor2 = 100,60
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 6 10"
+	elem "box5x10"
+		type = BUTTON
+		pos = 360,128
+		size = 40x32
+		anchor1 = 90,40
+		anchor2 = 100,50
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 5 10"
+	elem "box4x10"
+		type = BUTTON
+		pos = 360,96
+		size = 40x32
+		anchor1 = 90,30
+		anchor2 = 100,40
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 4 10"
+	elem "box3x10"
+		type = BUTTON
+		pos = 360,64
+		size = 40x32
+		anchor1 = 90,20
+		anchor2 = 100,30
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 3 10"
+	elem "box10x10"
+		type = BUTTON
+		pos = 360,288
+		size = 40x32
+		anchor1 = 90,90
+		anchor2 = 100,100
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 10 10"
+	elem "box10x9"
+		type = BUTTON
+		pos = 320,288
+		size = 40x32
+		anchor1 = 80,90
+		anchor2 = 90,100
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 10 9"
+	elem "box10x8"
+		type = BUTTON
+		pos = 280,288
+		size = 40x32
+		anchor1 = 70,90
+		anchor2 = 80,100
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 10 8"
+	elem "box10x7"
+		type = BUTTON
+		pos = 240,288
+		size = 40x32
+		anchor1 = 60,90
+		anchor2 = 70,100
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 10 7"
+	elem "box10x6"
+		type = BUTTON
+		pos = 200,288
+		size = 40x32
+		anchor1 = 50,90
+		anchor2 = 60,100
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 10 6"
+	elem "box10x5"
+		type = BUTTON
+		pos = 160,288
+		size = 40x32
+		anchor1 = 40,90
+		anchor2 = 50,100
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 10 5"
+	elem "box10x4"
+		type = BUTTON
+		pos = 120,288
+		size = 40x32
+		anchor1 = 30,90
+		anchor2 = 40,100
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 10 4"
+	elem "box10x3"
+		type = BUTTON
+		pos = 80,288
+		size = 40x32
+		anchor1 = 20,90
+		anchor2 = 30,100
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 10 3"
+	elem "box10x2"
+		type = BUTTON
+		pos = 40,288
+		size = 40x32
+		anchor1 = 10,90
+		anchor2 = 20,100
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 10 2"
+	elem "box10x1"
+		type = BUTTON
+		pos = 0,288
+		size = 40x32
+		anchor1 = 0,90
+		anchor2 = 10,100
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 10 1"
+	elem "box9x1"
+		type = BUTTON
+		pos = 0,256
+		size = 40x32
+		anchor1 = 0,80
+		anchor2 = 10,90
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 9 1"
+	elem "box8x1"
+		type = BUTTON
+		pos = 0,224
+		size = 40x32
+		anchor1 = 0,70
+		anchor2 = 10,80
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 8 1"
+	elem "box7x1"
+		type = BUTTON
+		pos = 0,192
+		size = 40x32
+		anchor1 = 0,60
+		anchor2 = 10,70
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 7 1"
+	elem "box6x1"
+		type = BUTTON
+		pos = 0,160
+		size = 40x32
+		anchor1 = 0,50
+		anchor2 = 10,60
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 6 1"
+	elem "box5x1"
+		type = BUTTON
+		pos = 0,128
+		size = 40x32
+		anchor1 = 0,40
+		anchor2 = 10,50
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 5 1"
+	elem "box4x1"
+		type = BUTTON
+		pos = 0,96
+		size = 40x32
+		anchor1 = 0,30
+		anchor2 = 10,40
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 4 1"
+	elem "box3x1"
+		type = BUTTON
+		pos = 0,64
+		size = 40x32
+		anchor1 = 0,20
+		anchor2 = 10,30
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 3 1"
+	elem "box2x10"
+		type = BUTTON
+		pos = 360,32
+		size = 40x32
+		anchor1 = 90,10
+		anchor2 = 100,20
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 2 10"
+	elem "box2x9"
+		type = BUTTON
+		pos = 320,32
+		size = 40x32
+		anchor1 = 80,10
+		anchor2 = 90,20
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 2 9"
+	elem "box2x8"
+		type = BUTTON
+		pos = 280,32
+		size = 40x32
+		anchor1 = 70,10
+		anchor2 = 80,20
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 2 8"
+	elem "box2x7"
+		type = BUTTON
+		pos = 240,32
+		size = 40x32
+		anchor1 = 60,10
+		anchor2 = 70,20
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 2 7"
+	elem "box2x6"
+		type = BUTTON
+		pos = 200,32
+		size = 40x32
+		anchor1 = 50,10
+		anchor2 = 60,20
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 2 6"
+	elem "box2x5"
+		type = BUTTON
+		pos = 160,32
+		size = 40x32
+		anchor1 = 40,10
+		anchor2 = 50,20
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 2 5"
+	elem "box2x4"
+		type = BUTTON
+		pos = 120,32
+		size = 40x32
+		anchor1 = 30,10
+		anchor2 = 40,20
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 2 4"
+	elem "box2x3"
+		type = BUTTON
+		pos = 80,32
+		size = 40x32
+		anchor1 = 20,10
+		anchor2 = 30,20
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 2 3"
+	elem "box2x2"
+		type = BUTTON
+		pos = 40,32
+		size = 40x32
+		anchor1 = 10,10
+		anchor2 = 20,20
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 2 2"
+	elem "box2x1"
+		type = BUTTON
+		pos = 0,32
+		size = 40x32
+		anchor1 = 0,10
+		anchor2 = 10,20
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 2 1"
+	elem "box1x10"
+		type = BUTTON
+		pos = 360,0
+		size = 40x32
+		anchor1 = 90,0
+		anchor2 = 100,10
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 1 10"
+	elem "box1x9"
+		type = BUTTON
+		pos = 320,0
+		size = 40x32
+		anchor1 = 80,0
+		anchor2 = 90,10
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 1 9"
+	elem "box1x8"
+		type = BUTTON
+		pos = 280,0
+		size = 40x32
+		anchor1 = 70,0
+		anchor2 = 80,10
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 1 8"
+	elem "box1x2"
+		type = BUTTON
+		pos = 40,0
+		size = 40x32
+		anchor1 = 10,0
+		anchor2 = 20,10
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 1 2"
+	elem "box1x6"
+		type = BUTTON
+		pos = 200,0
+		size = 40x32
+		anchor1 = 50,0
+		anchor2 = 60,10
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 1 6"
+	elem "box1x5"
+		type = BUTTON
+		pos = 160,0
+		size = 40x32
+		anchor1 = 40,0
+		anchor2 = 50,10
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 1 5"
+	elem "box1x4"
+		type = BUTTON
+		pos = 120,0
+		size = 40x32
+		anchor1 = 30,0
+		anchor2 = 40,10
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 1 4"
+	elem "box1x3"
+		type = BUTTON
+		pos = 80,0
+		size = 40x32
+		anchor1 = 20,0
+		anchor2 = 30,10
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 1 3"
+	elem "box1x7"
+		type = BUTTON
+		pos = 240,0
+		size = 40x32
+		anchor1 = 60,0
+		anchor2 = 70,10
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 1 7"
+	elem "box1x1"
+		type = BUTTON
+		pos = 0,0
+		size = 40x32
+		anchor1 = 0,0
+		anchor2 = 10,10
+		background-color = #ffffff
+		saved-params = "is-checked"
+		text = ""
+		command = "boxInfo 1 1"
+
+window "chat"
+	elem "chat"
+		type = MAIN
+		pos = 281,0
+		size = 136x104
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Chat"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "tab2"
+		type = TAB
+		pos = 0,0
+		size = 136x104
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = "Calibri"
+		font-size = 10
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		tabs = "misc, announcement, world, "
+		current-tab = "misc"
+		multi-line = false
+
+window "costume"
+	elem "costume"
+		type = MAIN
+		pos = 281,0
+		size = 88x183
+		anchor1 = none
+		anchor2 = none
+		background-color = #800000
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+		can-close = false
+		can-resize = false
+	elem "label5"
+		type = LABEL
+		pos = 0,152
+		size = 88x32
+		anchor1 = none
+		anchor2 = none
+		font-family = "Microsoft Sans Serif"
+		font-size = 10
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #400000
+		border = line
+		saved-params = ""
+		text = "Icons"
+	elem "Cgrid"
+		type = GRID
+		pos = 0,0
+		size = 88x144
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #400000
+		border = sunken
+		saved-params = ""
+		cells = 1x1
+		current-cell = 1,1
+		show-lines = horizontal
+		highlight-color = #000000
+
+window "default"
+	elem "default"
+		type = MAIN
+		pos = 54,0
+		size = 1296x632
+		anchor1 = none
+		anchor2 = none
+		background-color = #282828
+		is-default = true
+		drop-zone = true
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+		icon = 'Icon Files\\Portrait\\Mini Version\\Scychu Icon.dmi'
+		image-mode = center
+		macro = "macro"
+		menu = "menu"
+	elem "label13"
+		type = LABEL
+		pos = 1000,64
+		size = 296x24
+		anchor1 = 77,10
+		anchor2 = 100,14
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Volume:"
+		align = left
+	elem "bar1"
+		type = BAR
+		pos = 1104,64
+		size = 184x24
+		anchor1 = 85,10
+		anchor2 = 99,14
+		background-color = #ffffff
+		saved-params = ""
+		bar-color = #000000
+		is-slider = true
+		width = 0
+		dir = east
+		on-change = "changeVolume"
+	elem "button24"
+		type = BUTTON
+		pos = 1000,0
+		size = 64x64
+		anchor1 = 77,0
+		anchor2 = 82,10
+		border = line
+		saved-params = "is-checked"
+		text = ""
+		image = 'Icon Files\\PAV Image.gif'
+		command = "linkPAV"
+	elem "label20"
+		type = LABEL
+		pos = 1064,0
+		size = 232x64
+		anchor1 = 82,0
+		anchor2 = 100,10
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = "Like this game? If you do, you should play Pokémon Awesome Version, the game that inspired this all! Click the Pikachu for details."
+		align = left
+		text-wrap = true
+	elem "label1"
+		type = LABEL
+		pos = 0,592
+		size = 1323x40
+		anchor1 = 0,94
+		anchor2 = 100,100
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+	elem "input1"
+		type = INPUT
+		pos = 896,599
+		size = 392x25
+		anchor1 = 69,95
+		anchor2 = 99,99
+		border = line
+		saved-params = ""
+		command = "chat"
+	elem "button23"
+		type = BUTTON
+		pos = 128,600
+		size = 96x24
+		anchor1 = 10,95
+		anchor2 = 17,99
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Toggle Censor"
+		command = "censorToggle"
+		is-flat = true
+	elem "bagButton"
+		type = BUTTON
+		pos = 384,600
+		size = 80x24
+		anchor1 = 30,95
+		anchor2 = 36,99
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		is-visible = false
+		border = line
+		saved-params = "is-checked"
+		text = "Bag"
+		command = "togglebag"
+		is-flat = true
+	elem "partyButton"
+		type = BUTTON
+		pos = 324,600
+		size = 60x24
+		anchor1 = 25,95
+		anchor2 = 30,99
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		is-visible = false
+		border = line
+		saved-params = "is-checked"
+		text = "Party"
+		command = "PartyOpen"
+		is-flat = true
+	elem "trainerbutton"
+		type = BUTTON
+		pos = 224,600
+		size = 80x24
+		anchor1 = 17,95
+		anchor2 = 23,99
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		is-visible = false
+		border = line
+		saved-params = "is-checked"
+		text = "Trainer Card"
+		command = "togglecard"
+		is-flat = true
+	elem "savegameButton"
+		type = BUTTON
+		pos = 464,600
+		size = 78x24
+		anchor1 = 36,95
+		anchor2 = 42,99
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		is-visible = false
+		border = line
+		saved-params = "is-checked"
+		text = "Save Game"
+		command = "savegame"
+		is-flat = true
+	elem "map1"
+		type = MAP
+		pos = 0,0
+		size = 1000x592
+		anchor1 = 0,0
+		anchor2 = 77,94
+		is-default = true
+		border = line
+		right-click = true
+		saved-params = "icon-size"
+	elem "routeLabel"
+		type = LABEL
+		pos = 0,0
+		size = 200x24
+		anchor1 = 0,0
+		anchor2 = 11,4
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		is-visible = false
+		border = line
+		saved-params = ""
+		text = ""
+	elem "button1"
+		type = BUTTON
+		pos = 541,600
+		size = 88x24
+		anchor1 = 42,95
+		anchor2 = 49,99
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		is-visible = false
+		border = line
+		saved-params = "is-checked"
+		text = "Costume"
+		command = "switch-costume"
+		is-flat = true
+	elem "ooccheck"
+		type = BUTTON
+		pos = 731,599
+		size = 78x25
+		anchor1 = 56,95
+		anchor2 = 62,99
+		font-family = "Calibri"
+		font-size = 10
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "OOC"
+		command = ""
+		is-checked = true
+		group = "A"
+		button-type = radio
+	elem "staff"
+		type = BUTTON
+		pos = 656,599
+		size = 76x25
+		anchor1 = 51,95
+		anchor2 = 56,99
+		font-family = "Calibri"
+		font-size = 10
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		is-visible = false
+		border = line
+		saved-params = "is-checked"
+		text = "Staff"
+		command = "togglestaff"
+		is-flat = true
+	elem "saycheck"
+		type = BUTTON
+		pos = 808,599
+		size = 78x25
+		anchor1 = 62,95
+		anchor2 = 68,99
+		font-family = "Calibri"
+		font-size = 10
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Say"
+		command = ""
+		group = "A"
+		button-type = radio
+	elem "Background"
+		type = LABEL
+		pos = 0,463
+		size = 649x129
+		anchor1 = 0,73
+		anchor2 = 50,94
+		is-visible = false
+		saved-params = ""
+		text = ""
+		image = 'Graphic Files\\Screen Box.png'
+		image-mode = stretch
+	elem "Continue"
+		type = BUTTON
+		pos = 580,561
+		size = 39x22
+		anchor1 = 44,89
+		anchor2 = 47,92
+		font-family = "Calibri"
+		font-size = 11
+		font-style = "bold"
+		background-color = #ffffff
+		is-visible = false
+		border = line
+		saved-params = "is-checked"
+		text = "..."
+		command = "Continue"
+	elem "Screen Text"
+		type = LABEL
+		pos = 28,484
+		size = 521x85
+		anchor1 = 2,77
+		anchor2 = 42,90
+		font-family = "Calibri"
+		font-size = 10
+		background-color = #ffffff
+		is-visible = false
+		saved-params = ""
+		text = ""
+		align = top-left
+		text-wrap = true
+	elem "tab1"
+		type = TAB
+		pos = 1000,88
+		size = 296x504
+		anchor1 = 77,14
+		anchor2 = 100,94
+		font-family = "Calibri"
+		font-size = 10
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #400000
+		border = line
+		saved-params = ""
+		tabs = "chat"
+		current-tab = "chat"
+
+window "items"
+	elem "items"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Items"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "itemGrid"
+		type = GRID
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		cells = 1x1
+		current-cell = 1,1
+		line-color = #ffff00
+		highlight-color = #000000
+		style = "IMG.icon{width:32;height:32}"
+
+window "keyItems"
+	elem "keyItems"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Key Items"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "keyItemGrid"
+		type = GRID
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		cells = 1x1
+		current-cell = 1,1
+		line-color = #ffff00
+		highlight-color = #000000
+		style = "IMG.icon{width:32;height:32}"
+
+window "mainInfo"
+	elem "mainInfo"
+		type = MAIN
+		pos = 281,0
+		size = 640x260
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Info"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "caughtDate"
+		type = LABEL
+		pos = 0,240
+		size = 640x20
+		anchor1 = 0,92
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Pokemon Caught Date:"
+		align = left
+		text-wrap = true
+	elem "caughtLoc"
+		type = LABEL
+		pos = 0,220
+		size = 640x20
+		anchor1 = 0,85
+		anchor2 = 100,92
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Pokemon Caught At:"
+		align = left
+		text-wrap = true
+	elem "OTLabel"
+		type = LABEL
+		pos = 0,200
+		size = 640x20
+		anchor1 = 0,77
+		anchor2 = 100,85
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Original Trainer:"
+		align = left
+		text-wrap = true
+	elem "TIDLabel"
+		type = LABEL
+		pos = 0,180
+		size = 640x20
+		anchor1 = 0,69
+		anchor2 = 100,77
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Trainer ID:"
+		align = left
+		text-wrap = true
+	elem "abilityDesc"
+		type = LABEL
+		pos = 0,160
+		size = 640x20
+		anchor1 = 0,62
+		anchor2 = 100,69
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Ability Description:"
+		align = left
+		text-wrap = true
+	elem "abilityLabel"
+		type = LABEL
+		pos = 0,140
+		size = 640x20
+		anchor1 = 0,54
+		anchor2 = 100,62
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Ability: "
+		align = left
+	elem "nextEXP"
+		type = LABEL
+		pos = 0,120
+		size = 640x20
+		anchor1 = 0,46
+		anchor2 = 100,54
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "EXP Until Next Level:"
+		align = left
+	elem "curEXP"
+		type = LABEL
+		pos = 0,100
+		size = 640x20
+		anchor1 = 0,38
+		anchor2 = 100,46
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Current EXP:"
+		align = left
+	elem "caughtGame"
+		type = LABEL
+		pos = 0,80
+		size = 640x20
+		anchor1 = 0,31
+		anchor2 = 100,38
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Caught In Game:"
+		align = left
+	elem "levelLabel"
+		type = LABEL
+		pos = 0,60
+		size = 640x20
+		anchor1 = 0,23
+		anchor2 = 100,31
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Pokémon Current Level:"
+		align = left
+	elem "caughtRegion"
+		type = LABEL
+		pos = 0,40
+		size = 640x20
+		anchor1 = 0,15
+		anchor2 = 100,23
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Pokémon Caught In:"
+		align = left
+	elem "natureLabel"
+		type = LABEL
+		pos = 0,20
+		size = 640x20
+		anchor1 = 0,8
+		anchor2 = 100,15
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Pokémon Nature:"
+		align = left
+	elem "caughtLevel"
+		type = LABEL
+		pos = 0,0
+		size = 640x20
+		anchor1 = 0,0
+		anchor2 = 100,8
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = "Caught at Level:"
+		align = left
+
+window "mainStats"
+	elem "mainStats"
+		type = MAIN
+		pos = 281,0
+		size = 640x120
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Stats"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "speedLabel"
+		type = LABEL
+		pos = 320,100
+		size = 320x20
+		anchor1 = 50,83
+		anchor2 = 100,100
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "sdefLabel"
+		type = LABEL
+		pos = 320,80
+		size = 320x20
+		anchor1 = 50,67
+		anchor2 = 100,83
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "satkLabel"
+		type = LABEL
+		pos = 320,60
+		size = 320x20
+		anchor1 = 50,50
+		anchor2 = 100,67
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "defLabel"
+		type = LABEL
+		pos = 320,40
+		size = 320x20
+		anchor1 = 50,33
+		anchor2 = 100,50
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "atkLabel"
+		type = LABEL
+		pos = 320,20
+		size = 392x20
+		anchor1 = 50,17
+		anchor2 = 100,33
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "label11"
+		type = LABEL
+		pos = 0,100
+		size = 320x20
+		anchor1 = 0,83
+		anchor2 = 50,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Speed:"
+	elem "label10"
+		type = LABEL
+		pos = 0,80
+		size = 320x20
+		anchor1 = 0,67
+		anchor2 = 50,83
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Special Defense:"
+	elem "label9"
+		type = LABEL
+		pos = 0,60
+		size = 320x20
+		anchor1 = 0,50
+		anchor2 = 50,67
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Special Attack:"
+	elem "label8"
+		type = LABEL
+		pos = 0,40
+		size = 320x20
+		anchor1 = 0,33
+		anchor2 = 50,50
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Defense:"
+	elem "label6"
+		type = LABEL
+		pos = 0,20
+		size = 320x20
+		anchor1 = 0,17
+		anchor2 = 50,33
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "Attack:"
+	elem "HPLabel"
+		type = LABEL
+		pos = 320,0
+		size = 320x20
+		anchor1 = 50,0
+		anchor2 = 100,17
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "0"
+		align = left
+	elem "label3"
+		type = LABEL
+		pos = 0,0
+		size = 320x20
+		anchor1 = 0,0
+		anchor2 = 50,17
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "HP:"
+
+window "medicine"
+	elem "medicine"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Medicine"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "medicineGrid"
+		type = GRID
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		cells = 1x1
+		current-cell = 1,1
+		line-color = #ffff00
+		highlight-color = #000000
+		style = "IMG.icon{width:32;height:32}"
+
+window "misc"
+	elem "misc"
+		type = MAIN
+		pos = 281,0
+		size = 200x206
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "All"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "miscchat"
+		type = OUTPUT
+		pos = 0,0
+		size = 200x206
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = "Calibri"
+		font-size = 10
+		text-color = #c0c0c0
+		background-color = #282828
+		is-default = true
+		border = sunken
+		saved-params = "max-lines"
+		link-color = #0080ff
+		visited-color = #ff0080
+		style = "IMG.icon{width:32;height:32}\n"
+		max-lines = 0
+
+window "moves"
+	elem "moves"
+		type = MAIN
+		pos = 281,0
+		size = 640x304
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Moves"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "move4"
+		type = LABEL
+		pos = 0,228
+		size = 640x76
+		anchor1 = 0,75
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+		align = top-left
+		text-wrap = true
+	elem "move3"
+		type = LABEL
+		pos = 0,152
+		size = 640x76
+		anchor1 = 0,50
+		anchor2 = 100,75
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+		align = top-left
+		text-wrap = true
+	elem "move2"
+		type = LABEL
+		pos = 0,76
+		size = 640x76
+		anchor1 = 0,25
+		anchor2 = 100,50
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+		align = top-left
+		text-wrap = true
+	elem "move1"
+		type = LABEL
+		pos = 0,0
+		size = 640x76
+		anchor1 = 0,0
+		anchor2 = 100,25
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = ""
+		align = top-left
+		text-wrap = true
+
+window "partyThing"
+	elem "partyThing"
+		type = MAIN
+		pos = 281,0
+		size = 240x52
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		border = line
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "The Party Menu"
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+	elem "button7"
+		type = BUTTON
+		pos = 0,32
+		size = 240x20
+		anchor1 = 0,62
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Close Party"
+		command = "PartyClose"
+	elem "party6"
+		type = BUTTON
+		pos = 200,0
+		size = 40x32
+		anchor1 = 83,0
+		anchor2 = 100,62
+		text-color = #ffffff
+		background-color = #ffffff
+		border = line
+		saved-params = "is-checked"
+		text = ""
+		command = "PartyAccess \"6\""
+	elem "party5"
+		type = BUTTON
+		pos = 160,0
+		size = 40x32
+		anchor1 = 67,0
+		anchor2 = 83,62
+		text-color = #ffffff
+		background-color = #ffffff
+		border = line
+		saved-params = "is-checked"
+		text = ""
+		command = "PartyAccess \"5\""
+	elem "party4"
+		type = BUTTON
+		pos = 120,0
+		size = 40x32
+		anchor1 = 50,0
+		anchor2 = 67,62
+		text-color = #ffffff
+		background-color = #ffffff
+		border = line
+		saved-params = "is-checked"
+		text = ""
+		command = "PartyAccess \"4"
+	elem "party3"
+		type = BUTTON
+		pos = 80,0
+		size = 40x32
+		anchor1 = 33,0
+		anchor2 = 50,62
+		text-color = #ffffff
+		background-color = #ffffff
+		border = line
+		saved-params = "is-checked"
+		text = ""
+		command = "PartyAccess \"3\""
+	elem "party2"
+		type = BUTTON
+		pos = 40,0
+		size = 40x32
+		anchor1 = 17,0
+		anchor2 = 33,62
+		text-color = #ffffff
+		background-color = #ffffff
+		border = line
+		saved-params = "is-checked"
+		text = ""
+		command = "PartyAccess \"2\""
+	elem "party1"
+		type = BUTTON
+		pos = 0,0
+		size = 40x32
+		anchor1 = 0,0
+		anchor2 = 17,62
+		text-color = #ffffff
+		background-color = #ffffff
+		border = line
+		saved-params = "is-checked"
+		text = ""
+		command = "PartyAccess \"1\""
+
+window "pokeballs"
+	elem "pokeballs"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Poké Balls"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "pokeballGrid"
+		type = GRID
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		cells = 1x1
+		current-cell = 1,1
+		line-color = #ffff00
+		highlight-color = #000000
+		style = "IMG.icon{width:32;height:32}"
+
+window "ribbonInfo"
+	elem "ribbonInfo"
+		type = MAIN
+		pos = 281,0
+		size = 253x208
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+		can-minimize = false
+	elem "ribbonDesc"
+		type = LABEL
+		pos = 133,32
+		size = 120x176
+		anchor1 = 52,9
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = ""
+		align = top-left
+		text-wrap = true
+	elem "ribbonImage"
+		type = LABEL
+		pos = 0,32
+		size = 133x176
+		anchor1 = 0,9
+		anchor2 = 52,100
+		background-color = #ffffff
+		saved-params = ""
+		text = ""
+		image-mode = stretch
+		keep-aspect = true
+	elem "ribbonName"
+		type = LABEL
+		pos = 0,0
+		size = 257x32
+		anchor1 = 0,0
+		anchor2 = 100,9
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		text = ""
+
+window "ribbons"
+	elem "ribbons"
+		type = MAIN
+		pos = 281,0
+		size = 640x482
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Ribbons"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "ribbonGrid"
+		type = GRID
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		background-color = #800000
+		saved-params = ""
+		cells = 18x12
+		current-cell = 1,0
+		show-lines = none
+		show-names = false
+		highlight-color = #000000
+		style = "IMG.icon{width:32;height:32}"
+
+window "statCheck"
+	elem "statCheck"
+		type = MAIN
+		pos = 281,0
+		size = 180x140
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Stat Changes"
+		statusbar = false
+		can-minimize = false
+		can-resize = false
+	elem "newTotal"
+		type = LABEL
+		pos = 60,120
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "newSpeed"
+		type = LABEL
+		pos = 60,100
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "newSpDefense"
+		type = LABEL
+		pos = 60,80
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "newSpAttack"
+		type = LABEL
+		pos = 60,60
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "newDefense"
+		type = LABEL
+		pos = 60,40
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "newHP"
+		type = LABEL
+		pos = 60,0
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "totalGain"
+		type = LABEL
+		pos = 120,120
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "(+0)"
+	elem "speedGain"
+		type = LABEL
+		pos = 120,100
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "(+0)"
+	elem "spAttackGain"
+		type = LABEL
+		pos = 120,60
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "(+0)"
+	elem "spDefenseGain"
+		type = LABEL
+		pos = 120,80
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "(+0)"
+	elem "HPgain"
+		type = LABEL
+		pos = 120,0
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "(+0)"
+	elem "defenseGain"
+		type = LABEL
+		pos = 120,40
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "(+0)"
+	elem "label19"
+		type = LABEL
+		pos = 0,120
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "Total:"
+	elem "label18"
+		type = LABEL
+		pos = 0,100
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "Speed:"
+	elem "label17"
+		type = LABEL
+		pos = 0,80
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "Sp. Def:"
+	elem "label16"
+		type = LABEL
+		pos = 0,60
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "Sp. Atk:"
+	elem "label15"
+		type = LABEL
+		pos = 0,40
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "Defense:"
+	elem "label14"
+		type = LABEL
+		pos = 0,20
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "Attack:"
+	elem "attackGain"
+		type = LABEL
+		pos = 120,20
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "(+0)"
+	elem "newAttack"
+		type = LABEL
+		pos = 60,20
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "0"
+	elem "label12"
+		type = LABEL
+		pos = 0,0
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "HP:"
+
+window "stats"
+	elem "stats"
+		type = MAIN
+		pos = 281,0
+		size = 279x283
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		drop-zone = true
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Staff"
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+	elem "info1"
+		type = INFO
+		pos = 0,0
+		size = 279x283
+		anchor1 = 0,0
+		anchor2 = 100,100
+		text-color = #ffffff
+		background-color = #171717
+		saved-params = ""
+		highlight-color = #ff0000
+		tab-text-color = #ffffff
+		tab-background-color = #800000
+		tab-font-family = "Calibri"
+		tab-font-size = 10
+		tab-font-style = "bold"
+
+window "tms"
+	elem "tms"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "TMs/HMs"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "tmGrid"
+		type = GRID
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = ""
+		cells = 1x1
+		current-cell = 1,1
+		line-color = #ffff00
+		highlight-color = #000000
+		style = "IMG.icon{width:32;height:32}"
+
+window "tradeWindow"
+	elem "tradeWindow"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Pokémon Trading"
+		statusbar = false
+		can-minimize = false
+		can-resize = false
+		on-close = "cancelTrade"
+	elem "browser3"
+		type = BROWSER
+		pos = 320,0
+		size = 320x240
+		anchor1 = 50,0
+		anchor2 = 100,50
+		border = sunken
+		saved-params = ""
+	elem "browser2"
+		type = BROWSER
+		pos = 0,0
+		size = 320x240
+		anchor1 = 0,0
+		anchor2 = 50,50
+		border = sunken
+		saved-params = ""
+	elem "theirMon6"
+		type = LABEL
+		pos = 360,432
+		size = 240x32
+		anchor1 = 56,90
+		anchor2 = 94,97
+		text-color = #ffffff
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "theirMon5"
+		type = LABEL
+		pos = 360,400
+		size = 240x32
+		anchor1 = 56,83
+		anchor2 = 94,90
+		text-color = #ffffff
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "theirMon4"
+		type = LABEL
+		pos = 360,368
+		size = 240x32
+		anchor1 = none
+		anchor2 = none
+		text-color = #ffffff
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "theirMon3"
+		type = LABEL
+		pos = 360,336
+		size = 240x32
+		anchor1 = 56,70
+		anchor2 = 94,77
+		text-color = #ffffff
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "theirMon2"
+		type = LABEL
+		pos = 360,304
+		size = 240x32
+		anchor1 = 56,63
+		anchor2 = 94,70
+		text-color = #ffffff
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "theirMon1"
+		type = LABEL
+		pos = 360,272
+		size = 240x32
+		anchor1 = 56,57
+		anchor2 = 94,63
+		text-color = #ffffff
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "yourMon6"
+		type = LABEL
+		pos = 40,432
+		size = 240x32
+		anchor1 = none
+		anchor2 = none
+		text-color = #ffffff
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "yourMon5"
+		type = LABEL
+		pos = 40,400
+		size = 240x32
+		anchor1 = 6,83
+		anchor2 = 44,90
+		text-color = #ffffff
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "yourMon4"
+		type = LABEL
+		pos = 40,368
+		size = 240x32
+		anchor1 = 6,77
+		anchor2 = 44,83
+		text-color = #ffffff
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "yourMon3"
+		type = LABEL
+		pos = 40,336
+		size = 240x32
+		anchor1 = 6,70
+		anchor2 = 44,77
+		text-color = #ffffff
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "yourMon2"
+		type = LABEL
+		pos = 40,304
+		size = 240x32
+		anchor1 = 6,63
+		anchor2 = 44,70
+		text-color = #ffffff
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "yourMon1"
+		type = LABEL
+		pos = 40,272
+		size = 240x32
+		anchor1 = 6,57
+		anchor2 = 44,63
+		text-color = #ffffff
+		background-color = #00ffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "button22"
+		type = BUTTON
+		pos = 600,432
+		size = 40x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Check"
+		command = "checkButton 6"
+	elem "button21"
+		type = BUTTON
+		pos = 600,400
+		size = 40x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Check"
+		command = "checkButton 5"
+	elem "button20"
+		type = BUTTON
+		pos = 600,368
+		size = 40x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Check"
+		command = "checkButton 4"
+	elem "button19"
+		type = BUTTON
+		pos = 600,336
+		size = 40x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Check"
+		command = "checkButton 3"
+	elem "button18"
+		type = BUTTON
+		pos = 600,304
+		size = 40x32
+		anchor1 = 94,63
+		anchor2 = 100,70
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Check"
+		command = "checkButton 2"
+	elem "button17"
+		type = BUTTON
+		pos = 600,272
+		size = 40x32
+		anchor1 = 94,57
+		anchor2 = 100,63
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Check"
+		command = "checkButton 1"
+	elem "button16"
+		type = BUTTON
+		pos = 280,432
+		size = 40x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Trade"
+		command = "tradeButton 6"
+	elem "button15"
+		type = BUTTON
+		pos = 280,272
+		size = 40x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		saved-params = "is-checked"
+		text = "Trade"
+		command = "tradeButton"
+	elem "button14"
+		type = BUTTON
+		pos = 280,400
+		size = 40x32
+		anchor1 = 44,83
+		anchor2 = 50,90
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Trade"
+		command = "tradeButton 5"
+	elem "button13"
+		type = BUTTON
+		pos = 280,368
+		size = 40x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Trade"
+		command = "tradeButton 4"
+	elem "button12"
+		type = BUTTON
+		pos = 280,304
+		size = 40x32
+		anchor1 = 44,63
+		anchor2 = 50,70
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Trade"
+		command = "tradeButton 2"
+	elem "button11"
+		type = BUTTON
+		pos = 280,272
+		size = 40x32
+		anchor1 = 44,57
+		anchor2 = 50,63
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Trade"
+		command = "tradeButton 1"
+	elem "yourPic1"
+		type = LABEL
+		pos = 0,272
+		size = 40x32
+		anchor1 = 0,57
+		anchor2 = 6,63
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "button10"
+		type = BUTTON
+		pos = 280,336
+		size = 40x32
+		anchor1 = 44,70
+		anchor2 = 50,77
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Trade"
+		command = "tradeButton 3"
+	elem "theirPic6"
+		type = LABEL
+		pos = 320,432
+		size = 40x32
+		anchor1 = 50,90
+		anchor2 = 56,97
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "theirPic5"
+		type = LABEL
+		pos = 320,400
+		size = 40x32
+		anchor1 = 50,83
+		anchor2 = 56,90
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "theirPic4"
+		type = LABEL
+		pos = 320,368
+		size = 40x32
+		anchor1 = 50,77
+		anchor2 = 56,83
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "theirPic3"
+		type = LABEL
+		pos = 320,336
+		size = 40x32
+		anchor1 = 50,70
+		anchor2 = 56,77
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "theirPic2"
+		type = LABEL
+		pos = 320,304
+		size = 40x32
+		anchor1 = 50,63
+		anchor2 = 56,70
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "theirPic1"
+		type = LABEL
+		pos = 320,272
+		size = 40x32
+		anchor1 = 50,57
+		anchor2 = 56,63
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "yourPic6"
+		type = LABEL
+		pos = 0,432
+		size = 40x32
+		anchor1 = 0,90
+		anchor2 = 6,97
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "yourPic5"
+		type = LABEL
+		pos = 0,400
+		size = 40x32
+		anchor1 = 0,83
+		anchor2 = 6,90
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "yourPic4"
+		type = LABEL
+		pos = 0,368
+		size = 40x32
+		anchor1 = 0,77
+		anchor2 = 6,83
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "yourPic3"
+		type = LABEL
+		pos = 0,336
+		size = 40x32
+		anchor1 = 0,70
+		anchor2 = 6,77
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "yourPic2"
+		type = LABEL
+		pos = 0,304
+		size = 40x32
+		anchor1 = 0,63
+		anchor2 = 6,70
+		background-color = #ffffff
+		border = line
+		saved-params = ""
+		text = ""
+	elem "button9"
+		type = BUTTON
+		pos = 0,464
+		size = 640x16
+		anchor1 = 0,95
+		anchor2 = 100,100
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = "is-checked"
+		text = "Cancel Trade"
+		command = "cancelTrade"
+	elem "theirLabel"
+		type = LABEL
+		pos = 320,240
+		size = 320x32
+		anchor1 = 50,50
+		anchor2 = 100,57
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		on-size = "theirLabel"
+		text = "Their Pokémon"
+	elem "yourLabel"
+		type = LABEL
+		pos = 0,240
+		size = 320x32
+		anchor1 = 0,50
+		anchor2 = 50,57
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #800000
+		border = line
+		saved-params = ""
+		text = "Your Pokémon"
+
+window "who"
+	elem "who"
+		type = MAIN
+		pos = 281,0
+		size = 296x253
+		anchor1 = none
+		anchor2 = none
+		background-color = #282828
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Who's Online?"
+		statusbar = false
+		can-minimize = false
+		can-resize = false
+	elem "playersonline"
+		type = LABEL
+		pos = 0,229
+		size = 296x25
+		anchor1 = 0,91
+		anchor2 = 100,100
+		font-family = "Calibri"
+		font-size = 11
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #171717
+		border = line
+		saved-params = ""
+		text = "Players Online: 0"
+		align = top
+		text-wrap = true
+	elem "label2"
+		type = LABEL
+		pos = 0,0
+		size = 296x58
+		anchor1 = 0,0
+		anchor2 = 100,23
+		font-family = "Calibri"
+		font-size = 11
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #171717
+		border = line
+		saved-params = ""
+		text = ""
+		image = 'Graphic Files\\Who\'s Online.png'
+	elem "players"
+		type = OUTPUT
+		pos = -1,57
+		size = 297x173
+		anchor1 = 0,23
+		anchor2 = 100,91
+		font-family = "Calibri"
+		font-size = 11
+		text-color = #c0c0c0
+		background-color = #282828
+		border = line
+		saved-params = "max-lines"
+
+window "world"
+	elem "world"
+		type = MAIN
+		pos = 281,0
+		size = 200x200
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Chat"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "worldchat"
+		type = OUTPUT
+		pos = 0,0
+		size = 200x200
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = "Calibri"
+		font-size = 10
+		text-color = #c0c0c0
+		background-color = #282828
+		border = sunken
+		saved-params = "max-lines"
+		link-color = #0080ff
+		visited-color = #ff0080
+		style = "IMG.icon{width:32;height:32}\n"
+		max-lines = 0
+
+window "Game Help"
+	elem "Game Help"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Help File"
+		statusbar = false
+	elem "browser1"
+		type = BROWSER
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		is-default = true
+		saved-params = ""
+
